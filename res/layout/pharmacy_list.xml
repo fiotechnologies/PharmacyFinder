@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/pharm_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:singleLine="false"
+        android:gravity="center_vertical"        
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+ 
+    <TextView
+        android:id="@+id/pharm_address"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:singleLine="false"
+        android:autoLink="map"
+        android:layout_below="@id/pharm_name"        
+        android:textAppearance="?android:attr/textAppearanceSmall" />   
+        <TextView
+        android:id="@+id/street"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"        
+        android:layout_below="@id/pharm_address"       
+        android:textAppearance="?android:attr/textAppearanceSmall" /> 
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"        
+        android:layout_below="@id/street"       
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <TextView
+        android:id="@+id/hiphen"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"        
+        android:layout_below="@id/street"       
+        android:layout_toRightOf="@id/location"
+        android:text="@string/hiphen"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <TextView
+        android:id="@+id/zipcode"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"        
+        android:layout_below="@id/street"
+        android:layout_toRightOf="@id/hiphen"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <TextView
+        android:id="@+id/pharm_phone1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"        
+        android:layout_below="@id/location"        
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"        
+        android:layout_height="match_parent"
+        android:layout_below="@id/pharm_phone1"
+    >
+        
+    <TextView
+        android:id="@+id/call"
+        android:layout_width="0dp"        
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="5dp"        
+        android:background="@drawable/border"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:gravity="center"        
+        android:text="@string/call"
+        android:clickable="true"
+        android:onClick="callPharmacy"                  
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TextView
+        android:id="@+id/map"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"        
+        android:padding="5dp"        
+        android:background="@drawable/border"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:gravity="center"   
+        android:text="@string/map"
+        android:clickable="true"
+        android:onClick="showMap"        
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+    
+    </RelativeLayout>

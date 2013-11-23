@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_height="fill_parent">
+    <ProgressBar 
+        android:id="@+id/addressProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"        
+        android:visibility="gone" />
+    
+    <TextView android:id="@+id/locationLable" 
+              android:layout_width="fill_parent" 
+              android:layout_height="wrap_content" 
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#0EC447"
+              android:layout_toRightOf="@+id/addressProgress"/>
+    
+    <ListView 
+        android:id="@+id/pharmacy_list"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="blocksDescendants"
+        android:layout_below="@+id/locationLable"/>   
+    
+</RelativeLayout>
+

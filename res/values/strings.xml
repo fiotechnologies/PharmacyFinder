@@ -1,0 +1,1816 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pharmacy</string>
+    <string name="location_refresh">Refresh</string>
+    <string name="search">Search</string>
+    <string name="zipcode">Zip Code</string>
+    <string name="street">street</string>
+    <string name="area">Area</string>
+    <string name="zipCodeOk">OK</string>
+    <string name="hiphen">-</string>
+    <string name="call">Call</string>
+    <string name="map">Show Map</string>
+
+    <string-array name="area_array">
+        <item>Parrys</item>
+        <item>Anna Salai</item>
+        <item>Park Town</item>
+        <item>Mandaveli</item>
+        <item>Mylapore</item>
+        <item>Santhome</item>
+        <item>Triplicane</item>
+        <item>Greams Road</item>
+        <item>Vepery</item>
+        <item>Egmore</item>
+        <item>kilpauk</item>
+        <item>Perambur</item>
+        <item>Sembiam</item>
+        <item>Perambur Barracks</item>
+        <item>Pulianthope</item>
+        <item>Royapuram</item>
+        <item>Royapettah</item>
+        <item>Saidapet</item>
+        <item>St Thomas Mount</item>
+        <item>T Nagar</item>
+        <item>Teynampet</item>
+        <item>Alwarpet</item>
+        <item>Tiruvottiyur</item>
+        <item>Adyar</item>
+        <item>korukupet</item>
+        <item>washermanpet</item>
+        <item>Ayanavaram</item>
+        <item>kodambakkam</item>
+        <item>College of Engineering</item>
+        <item>Vadapalani</item>
+        <item>Meenambakkam</item>
+        <item>Raja Annamalai Puram</item>
+        <item>Mandaveli</item>
+        <item>Aminjikarai</item>
+        <item>Shenoy Nagar</item>
+        <item>Chetpet</item>
+        <item>Guindy</item>
+        <item>Ekkaduthangal</item>
+        <item>West Mambalam</item>
+        <item>Nungambakkam</item>
+        <item>Nandanam</item>
+        <item>IIT Chennai</item>
+        <item>Mogappair</item>
+        <item>ICF Colony</item>
+        <item>Vyasaarpadi</item>
+        <item>Anna Nagar</item>
+        <item>Tiruvanmiyur</item>
+        <item>Neelankarai</item>
+        <item>Kottivakkam</item>
+        <item>Velacheri</item>
+        <item>Pallavaram</item>
+        <item>Chrompet</item>
+        <item>Tambaram H.O</item>
+        <item>Tambaram Sanatorium</item>
+        <item>Vandalur</item>
+        <item>Villivakkam</item>
+        <item>Padi</item>
+        <item>Madhavaram Milk Colony</item>
+        <item>Redhills</item>
+        <item>Ambattur</item>
+        <item>Avadi</item>
+        <item>Avadi I.A.F</item>
+        <item>Poonamallee</item>
+        <item>Kumananchavadi</item>
+        <item>Senneerkuppam</item>
+        <item>Mangadu</item>
+        <item>Iyyappanthangal</item>
+        <item>Kattupakkam</item>
+        <item>Ennore</item>
+        <item>Ambattur Industrial Estate</item>
+        <item>Tambaram East</item>
+        <item>Madhavaram</item>
+        <item>Nanganallur</item>
+        <item>Thirumullaivoyal</item>
+        <item>Perungalathur</item>
+        <item>Chitlapakkam</item>
+        <item>CRP Camp Avadi</item>
+        <item>Pozhal</item>
+        <item>Sholavaram</item>
+        <item>Manali</item>
+        <item>Kundrathur</item>
+        <item>Anakaputhur</item>
+        <item>Kamaraj Nagar</item>
+        <item>Pattabiram</item>
+        <item>Selaiyur</item>
+        <item>Polichalur</item>
+        <item>Pammal</item>
+        <item>Tiruverkadu</item>
+        <item>K K Nagar</item>
+        <item>Sowcarpet</item>
+        <item>korattur</item>
+        <item>Tondiarpet</item>
+        <item>New Washermenpet</item>
+        <item>Peravallur</item>
+        <item>Ashok Nagar</item>
+        <item>Flowers Road</item>
+        <item>Kotturpuram</item>
+        <item>Gopalapuram</item>
+        <item> Alwarthirunagar</item>
+        <item>Valasaravakkam</item>
+        <item>Adambakkam</item>
+        <item>Nandambakkam</item>
+        <item>Ramapuram</item>
+        <item>Besant Nagar</item>
+        <item>Madipakkam</item>
+        <item>Virugambakkam</item>
+        <item>Saligramam</item>
+        <item>Choolaimedu</item>
+        <item>Maduravoyal</item>
+        <item>Ayanambakkam</item>
+        <item>Perungudi</item>
+        <item>Thoraipakkam</item>
+        <item>Kandanchavadi</item>
+        <item>SIDCO  estate</item>
+        <item>Kolathur</item>
+        <item>Perumbakkam</item>
+        <item>Medavakkam</item>
+        <item> Pallikaranai</item>
+        <item>Anna Nagar West</item>
+        <item>Anna Nagar East</item>
+        <item>Manali New Town  </item>
+        <item>George Town</item>
+        <item>Commander In Chief Road</item>
+        <item>Arumbakkam</item>
+        <item>Koyambedu</item>
+        <item>Nerkundram</item>
+        <item>Broadway</item>
+        <item>Ponniamman Medu</item>
+        <item>Choolai</item>
+        <item>Tharamani</item>
+        <item>Pazhavanthangal</item>
+        <item>Injambakkam</item>
+        <item>Porur</item>
+        <item>Manapakkam</item>
+        <item>Keelkattalai</item>
+        <item>Kovilambakkam</item>
+        <item>Old Pallavaram</item>
+        <item>Kodungaiyur</item>
+        <item>Sholinganallur</item>
+        <item>Mangadu</item>
+        <item>Gummidipundi</item>
+        <item>Minjur </item>
+        <item>Ponneri</item>
+        <item>Kavarapettai</item>
+        <item>Padappai</item>
+        <item>Thirunindravur</item>
+        <item>Gerugambakkam</item>
+        <item>Mangadu</item>
+        <item>Nazarethpettai</item>
+    </string-array>
+    <string-array name="street_array">
+        <item> Padi Kuppam Road</item>
+        <item>T S V Koil Street</item>
+        <item> Palandi Amman Koil Street</item>
+        <item>100 Feet By Pass Road</item>
+        <item>10th Avenue</item>
+        <item>10th Cross Street</item>
+        <item>10th Main Road</item>
+        <item>10th Sector</item>
+        <item>10th Street</item>
+        <item>11th Avenue</item>
+        <item>11th Main Road</item>
+        <item>11th Street</item>
+        <item>12th Avenue</item>
+        <item>12th Main Road</item>
+        <item>13th cross street</item>
+        <item>13th Main Road</item>
+        <item>14th Sector</item>
+        <item>14th Street</item>
+        <item>15th Avenue</item>
+        <item>15th Main Road</item>
+        <item>15th Sector</item>
+        <item>15th Street</item>
+        <item>16th main road</item>
+        <item>18th Aveune</item>
+        <item>18th Main Road</item>
+        <item>18th Street</item>
+        <item>1st Avenue</item>
+        <item>1st Cross Street</item>
+        <item>1st Main Road</item>
+        <item>1st Seaward Road</item>
+        <item>1st Sector</item>
+        <item>1st Street</item>
+        <item>200 Feet Link Road</item>
+        <item>200 Feet Road</item>
+        <item>200ft road</item>
+        <item>20th Avenue</item>
+        <item>21st Avenue</item>
+        <item>21st Main Road</item>
+        <item>21st Street</item>
+        <item>23rd Cross Street</item>
+        <item>25th Cross Street</item>
+        <item>26th Cross Street</item>
+        <item>27th Cross Street</item>
+        <item>29th Street</item>
+        <item>2nd Avenue</item>
+        <item>2nd Avenue Road</item>
+        <item>2nd Cross Street</item>
+        <item>2nd East Street</item>
+        <item>2nd Lane Beach</item>
+        <item>2nd Main Road</item>
+        <item>2nd Street</item>
+        <item>2nd Trust Link Street</item>
+        <item>	2nd Trust Main Road	</item>
+        <item>	30 Feet Road	</item>
+        <item>	31st Cross Street	</item>
+        <item>	31st Street	</item>
+        <item>	37th Street	</item>
+        <item>	3rd Avenue	</item>
+        <item>	3rd Cross Road	</item>
+        <item>	3rd Cross Street	</item>
+        <item>	3rd Main Road	</item>
+        <item>	3rd Street	</item>
+        <item>	40th Street	</item>
+        <item>	48th Street	</item>
+        <item>	4th Avenue	</item>
+        <item>	4th Main Road	</item>
+        <item>	4th Street	</item>
+        <item>	50th Street	</item>
+        <item>	57th Street	</item>
+        <item>	5th Avenue 	</item>
+        <item>	5th Main Road	</item>
+        <item>	5th Sector	</item>
+        <item>	5th Street	</item>
+        <item>	6th Avenue	</item>
+        <item>	6th Cross Street	</item>
+        <item>	6th Main Road	</item>
+        <item>	6th Street	</item>
+        <item>	70th Street	</item>
+        <item>	70th Street	</item>
+        <item>	72nd Street	</item>
+        <item>	74th Street	</item>
+        <item>	7th Avenue	</item>
+        <item>	7th Avenue Road	</item>
+        <item>	7th Main Road	</item>
+        <item>	7th Street	</item>
+        <item>	80 Feet Road	</item>
+        <item>	8th Avenue	</item>
+        <item>	8th Cross Street	</item>
+        <item>	8th Main Road	</item>
+        <item>	9th Avenue	</item>
+        <item>	A Nagar	</item>
+        <item>	A.G.S. Colony	</item>
+        <item>	A.K. Campus	</item>
+        <item>	A.K. Swamy Nagar	</item>
+        <item>	A.T. Nagar	</item>
+        <item>	A.V.M. Avenue	</item>
+        <item>	aandankuppam	</item>
+        <item>	Aathur Road	</item>
+        <item>	Abbusali Road	</item>
+        <item>	Abbusali street	</item>
+        <item>	Abdhul Faroukh Sahib Street	</item>
+        <item>	Abdul Farook Shaib Street	</item>
+        <item>	Abdul Razaak Street	</item>
+        <item>	Abiramapuram 	</item>
+        <item>	Abusali Street	</item>
+        <item>	Acharappan Street	</item>
+        <item>	Adam Street	</item>
+        <item>	Adyar Bridge Road	</item>
+        <item>	Agaram Main Road	</item>
+        <item>	Agraharam Street	</item>
+        <item>	AGS Colony	</item>
+        <item>	Ajes M G Street	</item>
+        <item>	Akbarabad	</item>
+        <item>	Akbersquare  	</item>
+        <item>	Alagappa Chettiar Road  	</item>
+        <item>	Alagar Perumal Koil Street	</item>
+        <item>	Alandur Road	</item>
+        <item>	Alapakkam Main Road	</item>
+        <item>	Alapakkam Road	</item>
+        <item>	Alwarpet Street	</item>
+        <item>	Ambal Nagar	</item>
+        <item>	Ambal nagar main road	</item>
+        <item>	Ambedkar Nagar	</item>
+        <item>	Ambedkar Street	</item>
+        <item>	Ameer John Street	</item>
+        <item>	Ameerjohn Street	</item>
+        <item>	Amman Kovil Street	</item>
+        <item>	Anbazagan street	</item>
+        <item>	Andal Nagar	</item>
+        <item>	Andavar Market	</item>
+        <item>	Anderson Road	</item>
+        <item>	Andiappa Gramani Street 	</item>
+        <item>	Angappa Naicken Street	</item>
+        <item>	Angappa Street	</item>
+        <item>	Anna Main Road	</item>
+        <item>	Anna Nagar	</item>
+        <item>	Anna Nagar Main Road	</item>
+        <item>	Anna Nedumpathai	</item>
+        <item>	Anna nedunchalai	</item>
+        <item>	Anna Pillai Street	</item>
+        <item>	Anna Salai	</item>
+        <item>	Anna Square	</item>
+        <item>	Anna Street	</item>
+        <item>	Annai Indra Ganthi Street	</item>
+        <item>	Annai Sathya Nagar	</item>
+        <item>	Annai Vailankanni Church Road	</item>
+        <item>	Annai Velankani Road	</item>
+        <item>	Annai Velankanni Church Road	</item>
+        <item>	Annai Velankanni Nagar	</item>
+        <item>	Annamalai Street	</item>
+        <item>	Annanagar	</item>
+        <item>	Anuman colony	</item>
+        <item>	Apk 1st Street	</item>
+        <item>	Apkoil Street	</item>
+        <item>	Apparswamy Koil Street	</item>
+        <item>	Appavu Street	</item>
+        <item>	Appu Mudali Street	</item>
+        <item>	Appu Street	</item>
+        <item>	Arathoon Road	</item>
+        <item>	Arcot Road	</item>
+        <item>	Armenian Street	</item>
+        <item>	Arumugam Nainar Street	</item>
+        <item>	Arunachala Naiken Street	</item>
+        <item>	Arunachalam Road	</item>
+        <item>	Arunachalam Street	</item>
+        <item>	Arundale street	</item>
+        <item>	Arya Gowda Road	</item>
+        <item>	Arya Gowder Street	</item>
+        <item>	Ashirwatham Nagar	</item>
+        <item>	Ashok Nagar Main Road	</item>
+        <item>	Ashoka Nagar	</item>
+        <item>	Asthinapuram	</item>
+        <item>	Audiappa Naicken Street	</item>
+        <item>	Audiappan Street	</item>
+        <item>	Avadi Road	</item>
+        <item>	Avvai nagar main road	</item>
+        <item>	Avvai Shanmugam Salai	</item>
+        <item>	Ayappakam main Road	</item>
+        <item>	Ayya Mudali Street	</item>
+        <item>	Ayya Pillai Street	</item>
+        <item>	Ayyappan Nagar	</item>
+        <item>	Ayyasamy Street	</item>
+        <item>	Ayyavoo Naidu Colony	</item>
+        <item>	Ayyavu Street	</item>
+        <item>	Azizuddin Khan Street	</item>
+        <item>	B B Road	</item>
+        <item>	B.E. Colony	</item>
+        <item>	Baba Nagar	</item>
+        <item>	baba temple street	</item>
+        <item>	Babu Nagar	</item>
+        <item>	Babu Rajendran Prasad Road	</item>
+        <item>	Babu reddy avenue	</item>
+        <item>	Babu Street	</item>
+        <item>	Babunagar	</item>
+        <item>	Baby Nagar	</item>
+        <item>	Baharathi Salai	</item>
+        <item>	Bajani kovil street	</item>
+        <item>	Bakingkam street	</item>
+        <item>	Bakthavachalam Street	</item>
+        <item>	Bala Arunachala Street	</item>
+        <item>	Balaiah garden	</item>
+        <item>	Balaji Nagar	</item>
+        <item>	Balaji Nagar Main Road  	</item>
+        <item>	Balakumaran Nagar	</item>
+        <item>	Balamurugan garden	</item>
+        <item>	Balasubramani Street	</item>
+        <item>	Balfour Road	</item>
+        <item>	Ballaiah Garden	</item>
+        <item>	Ballard Street	</item>
+        <item>	Balusamy Street	</item>
+        <item>	Bamaby Road	</item>
+        <item>	Bangaru Street	</item>
+        <item>	Bank Street	</item>
+        <item>	Banu Nagar	</item>
+        <item>	Barathidasan Colony	</item>
+        <item>	Barner Salai	</item>
+        <item>	Baroda Street	</item>
+        <item>	Barraka Road	</item>
+        <item>	Basavaiyan Street	</item>
+        <item>	Bazaar	</item>
+        <item>	Bazzar Road	</item>
+        <item>	Bazzar Street	</item>
+        <item>	BBC Villa Complex	</item>
+        <item>	Beach	</item>
+        <item>	Bells Road	</item>
+        <item>	Besant Avenue Road	</item>
+        <item>	Bethel Nagar	</item>
+        <item>	Bharath Nagar	</item>
+        <item>	Bharatha Matha Street 	</item>
+        <item>	Bharathamatha Street	</item>
+        <item>	Bharatheeswarar Colony	</item>
+        <item>	Bharathi Dasan Colony	</item>
+        <item>	Bharathi Nagar Main Road	</item>
+        <item>	Bharathi Road	</item>
+        <item>	Bharathi Salai	</item>
+        <item>	Bharathi Street	</item>
+        <item>	Bharathi Nagar	</item>
+        <item>	Bharathiar Street	</item>
+        <item>	Bharathidasan Street	</item>
+        <item>	Bharathidhasan Colony	</item>
+        <item>	Bhavani Nagar  	</item>
+        <item>	Big Street	</item>
+        <item>	Big Street Road	</item>
+        <item>	BMG Road	</item>
+        <item>	Board Development Office	</item>
+        <item>	Bora Complex Flower Street	</item>
+        <item>	Brahmin Street	</item>
+        <item>	Brewery Road	</item>
+        <item>	Bricklin Road	</item>
+        <item>	Brindavan 1st Street	</item>
+        <item>	Brindavan Nagar Main Road	</item>
+        <item>	Brindavan Road	</item>
+        <item>	Brindavan Street	</item>
+        <item>	Brindhavan Nagar	</item>
+        <item>	Broadway main road	</item>
+        <item>	Broadway Road	</item>
+        <item>	Broadway  	</item>
+        <item>	BType	</item>
+        <item>	Bundar Garden Street	</item>
+        <item>	Burner Garden Main Street	</item>
+        <item>	Bus Stand Road	</item>
+        <item>	Butt Road 	</item>
+        <item>	BV Naicken Street	</item>
+        <item>	C I T Colony	</item>
+        <item>	C I T Nagar	</item>
+        <item>	C P Ramaswamy Road	</item>
+        <item>	C T H Road	</item>
+        <item>	C V Raman Road	</item>
+        <item>	C.P. Ramasamy Road	</item>
+        <item>	C.R.Vedachalam Nagar	</item>
+        <item>	C.T.H. Road	</item>
+        <item>	C.V. Raman Road	</item>
+        <item>	Camp Road	</item>
+        <item>	Canal Bank Road	</item>
+        <item>	Car Street	</item>
+        <item>	Carpenter Street	</item>
+        <item>	Casa Major Road	</item>
+        <item>	Cathedral Road	</item>
+        <item>	Cathedral Garden Road	</item>
+        <item>	Cauvery Nagar	</item>
+        <item>	Cemetry Road	</item>
+        <item>	Central Avenue	</item>
+        <item>	Central Railway Station	</item>
+        <item>	Century Plaza	</item>
+        <item>	Chakrapani Street	</item>
+        <item>	Chamiers Road	</item>
+        <item>	Charles nagar	</item>
+        <item>	Chelliamman Nagar	</item>
+        <item>	Chemiars Road	</item>
+        <item>	chemmenchary	</item>
+        <item>	Chengalvoraya Road	</item>
+        <item>	Chennai Interational Airport Division	</item>
+        <item>	Chennai Moffusil Bus Terminus	</item>
+        <item>	Chennai Tiruvallur High Road	</item>
+        <item>	Chetty Street	</item>
+        <item>	Chinmaya Nagar 	</item>
+        <item>	Chinna Babu Street	</item>
+        <item>	Chinnasekkadu	</item>
+        <item>	Chinniya Road	</item>
+        <item>	Chithalapakkam Kottu Road	</item>
+        <item>	Chitra Avenue	</item>
+        <item>	Chitrakulam North street	</item>
+        <item>	Chitrakulam West Street	</item>
+        <item>	Chittalapakkam Main Road	</item>
+        <item>	Cholambedu Main Road	</item>
+        <item>	Cholambedu Road	</item>
+        <item>	Choolai High Road	</item>
+        <item>	Choolaimedu High Road	</item>
+        <item>	Church Road	</item>
+        <item>	Circular Road	</item>
+        <item>	CIT Nagar	</item>
+        <item>	CNK Road	</item>
+        <item>	COLLECTORATE COLONY	</item>
+        <item>	College Road	</item>
+        <item>	Conron Smith Road	</item>
+        <item>	Constable Road	</item>
+        <item>	Coral merchant street	</item>
+        <item>	Costers Road	</item>
+        <item>	Cresent Ground Road	</item>
+        <item>	CTH Road	</item>
+        <item>	Cys Road	</item>
+        <item>	Dadha Nagar	</item>
+        <item>	Damodara Puram	</item>
+        <item>	Damodarapuram Main Road	</item>
+        <item>	Dargha Road	</item>
+        <item>	Dasarathapuram	</item>
+        <item>	Dasarathpuram Main Road	</item>
+        <item>	Davidson Street  	</item>
+        <item>	Dcoster Road	</item>
+        <item>	De Mellows Road	</item>
+        <item>	Defence Colony	</item>
+        <item>	Demellows Road	</item>
+        <item>	Desikan Road	</item>
+        <item>	Devaki Ammal Street	</item>
+        <item>	Devanathan Road	</item>
+        <item>	Devanathan Street	</item>
+        <item>	Devar 6th Street	</item>
+        <item>	Devaraj Mudali Street	</item>
+        <item>	Devaraj Nagar Main Road	</item>
+        <item>	Devaraj Pillai Street	</item>
+        <item>	Devaraja Mudali Street	</item>
+        <item>	Devarajulu Street	</item>
+        <item>	Devi Karumariamman Street	</item>
+        <item>	devi nagar	</item>
+        <item>	Devi nagar Main Road	</item>
+        <item>	Dhandeeswaran Main Road	</item>
+        <item>	Dhandeshwarar Nagar	</item>
+        <item>	Dharga Road	</item>
+        <item>	Dhargase road	</item>
+        <item>	Dhasarathapuram	</item>
+        <item>	Doctors Colony	</item>
+        <item>	Dr Guruswamy Road	</item>
+        <item>	Dr Moorthy Nagar Main Road	</item>
+        <item>	Dr Radhakrishnan Nagar	</item>
+        <item>	Dr Rajendra Prasad Road	</item>
+        <item>	Dr Rangachari Road	</item>
+        <item>	Dr Thirumurthy Nagar	</item>
+        <item>	DR TV Road	</item>
+        <item>	Dr. Alagappa Road  	</item>
+        <item>	Dr. Alagiriswamy Road	</item>
+        <item>	Dr. Ambedkar Road	</item>
+        <item>	Dr. Ambedkar Street	</item>
+        <item>	Dr. Guruswamy Road	</item>
+        <item>	Dr. Muniappa Road	</item>
+        <item>	Dr. Radha Krishnan Nagar	</item>
+        <item>	Dr. Rajendra Prasad Road	</item>
+        <item>	Dr. Ramaswami Salai	</item>
+        <item>	Dr.Ambedkar Street	</item>
+        <item>	Dr.Besant Road	</item>
+        <item>	Dr.Devaraj Nagar Main Road	</item>
+        <item>	Dr.khanu Nagar Main Road	</item>
+        <item>	Dr.Lakshmanasamy Road	</item>
+        <item>	Dr.Lakshmanaswamy Salai	</item>
+        <item>	Dr.Muthu Lakshmi Road 	</item>
+        <item>	Dr.Netasan Street	</item>
+        <item>	Dr.Ramaswamy Salai	</item>
+        <item>	Dr.Ranga Road 	</item>
+        <item>	Dr.Sadasivam Road	</item>
+        <item>	Dr.Seethapathy Nagar	</item>
+        <item>	Drowpathi Amman Kovil Street	</item>
+        <item>	Duraiarasan Street	</item>
+        <item>	Duraisamy Street	</item>
+        <item>	Duraiswamy	</item>
+        <item>	Duraiswamy Gramini Street	</item>
+        <item>	Duraiswamy road	</item>
+        <item>	Duraiswamy Salai	</item>
+        <item>	Durga Colony	</item>
+        <item>	E H Road	</item>
+        <item>	E V K Sampath Road	</item>
+        <item>	E V R Periyar High Road	</item>
+        <item>	E Ve Ra Street	</item>
+        <item>	E.V.R. High Road	</item>
+        <item>	E.V.R. Periyar High Road	</item>
+        <item>	Eari Karai Street	</item>
+        <item>	East Avenue	</item>
+        <item>	East CIT Nagar	</item>
+        <item>	East Club Road	</item>
+        <item>	East Coast Road	</item>
+        <item>	East Jones Road	</item>
+        <item>	East Kalmandapam Road	</item>
+        <item>	East Madha Street	</item>
+        <item>	East Main Road	</item>
+        <item>	East vanniyar street	</item>
+        <item>	Easwaran Kovil Street	</item>
+        <item>	ECR Road	</item>
+        <item>	Egmore High Road 	</item>
+        <item>	Ekambara Dabedar Street	</item>
+        <item>	Ekambareswara Agraharam	</item>
+        <item>	Ekambareswarar Aghrm Street	</item>
+        <item>	Elango Adigal Street	</item>
+        <item>	Elango Street	</item>
+        <item>	Eldmas Road	</item>
+        <item>	Elengo nagar	</item>
+        <item>	Elephant Gate	</item>
+        <item>	Elephant Gate Street	</item>
+        <item>	Elephante Gate Bridge Road	</item>
+        <item>	Ellaiyamman nagar	</item>
+        <item>	Ellaya Mudali Street	</item>
+        <item>	Elumalai salai	</item>
+        <item>	Eri Scheme	</item>
+        <item>	Erikkarai Street	</item>
+        <item>	Erukkancheri	</item>
+        <item>	Erukkanchery High Road	</item>
+        <item>	Erusappa Street	</item>
+        <item>	Estate Road	</item>
+        <item>	Eswaran Kovil Street 	</item>
+        <item>	Ethiraj Lane	</item>
+        <item>	Ethiraj Salai	</item>
+        <item>	EVR High Road	</item>
+        <item>	Fakir Shaib Street	</item>
+        <item>	Fakir Zahib Street	</item>
+        <item>	Flower Bazaar	</item>
+        <item>	Flowers Road	</item>
+        <item>	Friends Avenue	</item>
+        <item>	G N Chetty Road	</item>
+        <item>	G N G Street	</item>
+        <item>	G N T Road	</item>
+        <item>	G.A. Road	</item>
+        <item>	G.B. Reddy Street	</item>
+        <item>	G.N. Chetty Street	</item>
+        <item>	Gajapathy Street	</item>
+        <item>	Ganapathi raj nagar road	</item>
+        <item>	Ganapathy Nagar	</item>
+        <item>	Gandhi Irwin Road 	</item>
+        <item>	Gandhi Main Road	</item>
+        <item>	Gandhi Mandapam Road  	</item>
+        <item>	Gandhi Nagar	</item>
+        <item>	Gandhi road 	</item>
+        <item>	Gandhi Salai	</item>
+        <item>	Gandhi Street	</item>
+        <item>	Gandhiji Road	</item>
+        <item>	Ganesh Nagar Main Road	</item>
+        <item>	Ganesh street	</item>
+        <item>	Ganga Nagar	</item>
+        <item>	Gangai Amman Koil Street	</item>
+        <item>	Gangu reddy street	</item>
+        <item>	Gard	</item>
+        <item>	Gaudiya Mutt Road	</item>
+        <item>	Gemin Royapettah	</item>
+        <item>	Gengu Reddy Road	</item>
+        <item>	Gengu Road	</item>
+        <item>	Gengu Roady Road 	</item>
+        <item>	Georgetown	</item>
+        <item>	Gill Nagar	</item>
+        <item>	Girinagar	</item>
+        <item>	Glass Factory Road	</item>
+        <item>	Gnanamoorthy Nagar	</item>
+        <item>	GNT Road	</item>
+        <item>	Godown Street	</item>
+        <item>	Golden Colony	</item>
+        <item>	Golden George Nager	</item>
+        <item>	Gollawar Aghrm Road	</item>
+        <item>	Gopal Reddy Colony	</item>
+        <item>	Gopalakrishna Road	</item>
+        <item>	Gopalapuram 1st Street	</item>
+        <item>	Gopalapuram Main Road	</item>
+        <item>	Govindan Road	</item>
+        <item>	Govindappa Naicken Street	</item>
+        <item>	Govindappa Street	</item>
+        <item>	Govindhan Street	</item>
+        <item>	Gowdia Mutt Road	</item>
+        <item>	Grammath Street	</item>
+        <item>	Greams Road 	</item>
+        <item>	Greenways Road	</item>
+        <item>	Grigory Street	</item>
+        <item>	GST Road	</item>
+        <item>	H Road	</item>
+        <item>	Haji Sheik Hussain Street	</item>
+        <item>	Halls Road 	</item>
+        <item>	Hanumantha Rayan Koil Street	</item>
+        <item>	Hariharan Bazaar Street	</item>
+        <item>	Harrington Road	</item>
+        <item>	Hasthinapuram	</item>
+        <item>	High Road	</item>
+        <item>	Hindi Prachar Sabha Street	</item>
+        <item>	Hindra Nagar	</item>
+        <item>	Hindu Colony	</item>
+        <item>	Hospital Road	</item>
+        <item>	Hussain mulk street	</item>
+        <item>	I C F colony	</item>
+        <item>	I T Road	</item>
+        <item>	Ibrahim Sahib Street	</item>
+        <item>	Ice House 	</item>
+        <item>	ICF Colony	</item>
+        <item>	ICMR main road	</item>
+        <item>	IIT Hospital Premises	</item>
+        <item>	Indira Avenue Road	</item>
+        <item>	Indira Colony	</item>
+        <item>	Indira Gandhi Nagar	</item>
+        <item>	Indira Gandhi Road	</item>
+        <item>	Indira Nagar	</item>
+        <item>	indiragandhi nagar	</item>
+        <item>	Indirani Street	</item>
+        <item>	Indra Nagar	</item>
+        <item>	Industrial Estate	</item>
+        <item>	Irusappa Street	</item>
+        <item>	Issac Street	</item>
+        <item>	IT Highway	</item>
+        <item>	Iyappa Chetty Street	</item>
+        <item>	Iyya Pillai Street	</item>
+        <item>	Iyya Pillai Street	</item>
+        <item>	J J Khan Street	</item>
+        <item>	J.J. Khan Road	</item>
+        <item>	J.J.nagar	</item>
+        <item>	Jaffer Serang Street	</item>
+        <item>	Jafferkhanpet	</item>
+        <item>	Jaganatha Nagar	</item>
+        <item>	Jaganathapuram	</item>
+        <item>	Jagathambigal nagar	</item>
+        <item>	Jai Jhan Khan Road	</item>
+        <item>	JAI Nagar	</item>
+        <item>	Jain College Staff Colony	</item>
+        <item>	Jain Jan Khan Road	</item>
+        <item>	Jaipur Colony	</item>
+        <item>	Jal Naicken Street	</item>
+        <item>	Jalladanpetai	</item>
+        <item>	Jambazzar	</item>
+        <item>	Jambulingam Street	</item>
+        <item>	James Street	</item>
+        <item>	Janaki Nagar	</item>
+        <item>	Janapanchatram	</item>
+        <item>	Jandra Pilliar Koil Street	</item>
+        <item>	Jani Jon Khan Road	</item>
+        <item>	Jawahar Nagar	</item>
+        <item>	Jawaharlal Nehru Inner Road	</item>
+        <item>	Jawaharlal Nehru Road	</item>
+        <item>	Jawaharlal Nehru Salai	</item>
+        <item>	Jawaharlal Nehru Street	</item>
+        <item>	Jaya Arts College Main Road	</item>
+        <item>	Jaya Nagar	</item>
+        <item>	Jayalakshmipuram	</item>
+        <item>	Jayammal Street	</item>
+        <item>	Jcn Street	</item>
+        <item>	Jeenis Road	</item>
+        <item>	Jeer Street	</item>
+        <item>	Jeevani Nagar	</item>
+        <item>	Jeevarathnam Salai	</item>
+        <item>	Jeganathapuram	</item>
+        <item>	Jermiah Road	</item>
+        <item>	Jhani Jhan Khan Road	</item>
+        <item>	JJ Nagar	</item>
+        <item>	Jones Road	</item>
+        <item>	Josier Street	</item>
+        <item>	Jothi Nagar	</item>
+        <item>	JP Koil Street	</item>
+        <item>	K K D Nagar	</item>
+        <item>	K K High Road	</item>
+        <item>	K K Road	</item>
+        <item>	K K Street	</item>
+        <item>	K K Salai	</item>
+        <item>	K.B.Dasan Road	</item>
+        <item>	K.H. Road	</item>
+        <item>	K.K. Nagar West	</item>
+        <item>	K.K. Road	</item>
+        <item>	Kaikankuppam	</item>
+        <item>	Kaisyappar Street	</item>
+        <item>	Kakkan Nagar	</item>
+        <item>	Kakkan Road	</item>
+        <item>	Kakkan Street	</item>
+        <item>	Kalachathamman kovil street	</item>
+        <item>	Kaladipet	</item>
+        <item>	Kalakshetra Colony 	</item>
+        <item>	Kalashetra Road 	</item>
+        <item>	Kalathiappa Street	</item>
+        <item>	Kalathu Mettu Street	</item>
+        <item>	Kaliamman Koil Street	</item>
+        <item>	Kalidasar Street	</item>
+        <item>	Kalingaraya Mdli 1st Lane	</item>
+        <item>	Kalingaraya Street	</item>
+        <item>	Kalki Krishnamoorthy Salai	</item>
+        <item>	kallikuppam	</item>
+        <item>	Kallikuppam Main Road	</item>
+        <item>	Kalmandapam Road 	</item>
+        <item>	Kalpalayam  	</item>
+        <item>	Kamakotti nagar main road	</item>
+        <item>	Kamakotti Street	</item>
+        <item>	Kamala Nagar	</item>
+        <item>	Kamaraj Nagar	</item>
+        <item>	Kamaraj Nagar Main Road	</item>
+        <item>	Kamaraj Road	</item>
+        <item>	Kamaraj Salai	</item>
+        <item>	Kamaraj Street	</item>
+        <item>	Kamaraj Nagar	</item>
+        <item>	Kamarajapuram 	</item>
+        <item>	Kamarajar Avenue	</item>
+        <item>	kamarajar colony	</item>
+        <item>	Kamarajar Nedun Salai	</item>
+        <item>	Kamarajar Salai Road	</item>
+        <item>	Kamarajar Salai 	</item>
+        <item>	Kamatchi Amman Nagar	</item>
+        <item>	Kambar Colony	</item>
+        <item>	Kambar Street	</item>
+        <item>	Kamdar Nagar	</item>
+        <item>	Kanakar Street	</item>
+        <item>	Kandan Chavadi	</item>
+        <item>	Kandappa Mudali Street	</item>
+        <item>	Kandaswamy Street	</item>
+        <item>	Kannadhasa Nagar	</item>
+        <item>	Kannagi Street	</item>
+        <item>	Kanniamman koil stakarai	</item>
+        <item>	Kanniamman Koil Street	</item>
+        <item>	Kanniyalal Lane	</item>
+        <item>	Kanu nagar main road	</item>
+        <item>	Karaneeswarar Koil Street	</item>
+        <item>	Karanodai	</item>
+        <item>	Kariappa Street	</item>
+        <item>	Karikalan Street	</item>
+        <item>	Karneeswarar Koil Street	</item>
+        <item>	Karpaga vinayaga street	</item>
+        <item>	Karpaga Vinayagar Street	</item>
+        <item>	Karpagam Garden	</item>
+        <item>	Karpagambal Nagar	</item>
+        <item>	Karthikeyapuram	</item>
+        <item>	Karukku Main Road	</item>
+        <item>	Karumariamman Koil 3rd Street	</item>
+        <item>	Karumarriamman Street	</item>
+        <item>	Karunanidhi Puram	</item>
+        <item>	Karuneegar Street	</item>
+        <item>	Kasi Chetty Street	</item>
+        <item>	Kasi Vishwanathan Street	</item>
+        <item>	Kasim Street	</item>
+        <item>	Kasturba Nagar	</item>
+        <item>	Kasturi Bai Nagar	</item>
+        <item>	Kathivakkam High Road	</item>
+        <item>	Kattupakkam Main Road	</item>
+        <item>	Kaveri Nagar	</item>
+        <item>	Kaveri Street	</item>
+        <item>	Kaviarasu Kannadasan Nagar	</item>
+        <item>	Keelakottaiyur	</item>
+        <item>	Kelambakkam Main Road	</item>
+        <item>	Kellys	</item>
+        <item>	Kellys Road	</item>
+        <item>	Kesari Nagar	</item>
+        <item>	Kesava Iyer Street	</item>
+        <item>	Khadar Nawaz Khan Road	</item>
+        <item>	Khana Bhag Street	</item>
+        <item>	Kilpauk Garden	</item>
+        <item>	Kilpauk Garden Road	</item>
+        <item>	Kilpauk High Road	</item>
+        <item>	Kk Salai	</item>
+        <item>	KKR Nagar	</item>
+        <item>	Kodambakkam High Road	</item>
+        <item>	Kodambakkam Main Road	</item>
+        <item>	Kodambakkam Road	</item>
+        <item>	Kolachery Main Road	</item>
+        <item>	Koladi road	</item>
+        <item>	Kolathur Main Road	</item>
+        <item>	Kondithope	</item>
+        <item>	Konnur High Road	</item>
+        <item>	Kosapet	</item>
+        <item>	Kothaval Chavadi Street	</item>
+        <item>	Krishna Koil Street	</item>
+        <item>	Krishna Nagar	</item>
+        <item>	Krishnadoss Road	</item>
+        <item>	Krishnamachari Street	</item>
+        <item>	Krishnamachry Nagar	</item>
+        <item>	Krishnamma Road	</item>
+        <item>	Krishnamoorthy Salai	</item>
+        <item>	Krishnappa Agraharam	</item>
+        <item>	Krishnapuram	</item>
+        <item>	Kudiyiruppu	</item>
+        <item>	Kumaran Colony Main Road	</item>
+        <item>	Kumaran Nagar	</item>
+        <item>	Kumaran Nagar Main Road	</item>
+        <item>	Kumarasamy Nagar	</item>
+        <item>	Kummalamman Koil Street	</item>
+        <item>	Kundrakudi Nagar Main Road	</item>
+        <item>	Kundrathur Road	</item>
+        <item>	Kunrathur Main Road	</item>
+        <item>	Kunrathur Road	</item>
+        <item>	Kuppam beach road	</item>
+        <item>	Kuppier Street	</item>
+        <item>	Kuppu Muthu Mudali Street	</item>
+        <item>	Kuppu muthu street	</item>
+        <item>	Kurunji Nagar	</item>
+        <item>	Kutchery Road	</item>
+        <item>	Kuyavar Street	</item>
+        <item>	L B Road	</item>
+        <item>	L.I.G.H. Colony	</item>
+        <item>	Lady Madhavan Nair Road	</item>
+        <item>	Lake View Road	</item>
+        <item>	Lake View Street	</item>
+        <item>	Lakshmanaswamy Salai	</item>
+        <item>	Lakshmi Amman Koil Street  	</item>
+        <item>	Lakshmi Nagar	</item>
+        <item>	Lakshmi Puram	</item>
+        <item>	Lakshmi Puram Road	</item>
+        <item>	Lakshmi Street	</item>
+        <item>	Lakshmi Talkies Road	</item>
+        <item>	Lakshmiamman Koil Street	</item>
+        <item>	Lakshmipuram	</item>
+        <item>	Lakshmipuram Main Road	</item>
+        <item>	Landons Road	</item>
+        <item>	Lattice Bridge Road	</item>
+        <item>	Lawyer Jagannadhan Street	</item>
+        <item>	Lazarus Church Road	</item>
+        <item>	LB Road	</item>
+        <item>	Lime Kiln Street	</item>
+        <item>	Linghi Chetty Street	</item>
+        <item>	Link Road	</item>
+        <item>	Little Mount	</item>
+        <item>	Llyods Road	</item>
+        <item>	Loganathan Nagar	</item>
+        <item>	Luz Church Road	</item>
+        <item>	Lyods Road 	</item>
+        <item>	M G Road	</item>
+        <item>	M H Road	</item>
+        <item>	M K Amman Koil Street	</item>
+        <item>	M M D A	</item>
+        <item>	M R C Nagar	</item>
+        <item>	M R H Road	</item>
+        <item>	M R Nagar	</item>
+        <item>	M T H Road	</item>
+        <item>	M.G. Road	</item>
+        <item>	M.K. Gandhi Street	</item>
+        <item>	M.K. Nagar	</item>
+        <item>	M.K. Reddy Street	</item>
+        <item>	M.M.D.A Colony	</item>
+        <item>	M.M.D.A Main Road	</item>
+        <item>	M.M.D.A Salai	</item>
+        <item>	M.N. Road	</item>
+        <item>	M.S. Koil Street	</item>
+        <item>	M.T. Road	</item>
+        <item>	M.T.H. Road 	</item>
+        <item>	M.Thiruvottiyur High Road 	</item>
+        <item>	MA Nagar	</item>
+        <item>	MA Po Si Nagar	</item>
+        <item>	Mada Street	</item>
+        <item>	Madambakkam	</item>
+        <item>	Madambakkam Road	</item>
+        <item>	Madavakkan Street	</item>
+        <item>	Madaveli lane	</item>
+        <item>	Madhavan street	</item>
+        <item>	Madhavaram High Road	</item>
+        <item>	Madhavaram Milk Colony	</item>
+        <item>	Madhi alagan street	</item>
+        <item>	Madipakkam Main Road	</item>
+        <item>	Madras bhattai road	</item>
+        <item>	Maduvankarai	</item>
+        <item>	Magalapuram	</item>
+        <item>	Mahalakshmi Avenue	</item>
+        <item>	Mahalakshmi Nagar	</item>
+        <item>	Maharaja Surya Rao Road	</item>
+        <item>	Maharaja Surya Road	</item>
+        <item>	Mahathma Gandhi Road	</item>
+        <item>	Mahatma Gandhi Street	</item>
+        <item>	Main Road	</item>
+        <item>	Majestic Colony	</item>
+        <item>	Mambakam Road	</item>
+        <item>	Mambakkam Main Road	</item>
+        <item>	Managalapuram	</item>
+        <item>	Manali High Road	</item>
+        <item>	Manapakkam Main Road	</item>
+        <item>	Mandaiveli Street	</item>
+        <item>	Mandapam Cross Road	</item>
+        <item>	Mandaveli Lane	</item>
+        <item>	Mandaveli Street	</item>
+        <item>	Mangadu Swamy Street 	</item>
+        <item>	Mangesh Street	</item>
+        <item>	Manickam Nagar	</item>
+        <item>	Manikandapuram	</item>
+        <item>	Manimangalam Road	</item>
+        <item>	Mannady	</item>
+        <item>	Mannady Street	</item>
+        <item>	Mannarsamy Koil Street	</item>
+        <item>	Mare Street	</item>
+        <item>	Mariamman Koil Street	</item>
+        <item>	Market Lane	</item>
+        <item>	Market Street 	</item>
+        <item>	Marshalls Road 	</item>
+        <item>	Maruthi Nagar	</item>
+        <item>	Masthangori street	</item>
+        <item>	Mathala Narayanan Street	</item>
+        <item>	Mathiyalagan Nagar	</item>
+        <item>	Mathur	</item>
+        <item>	Mayor Basudev Street	</item>
+        <item>	McNichols Road	</item>
+        <item>	Medavakkam High Road	</item>
+        <item>	Medavakkam MH Road	</item>
+        <item>	Medavakkam Road  	</item>
+        <item>	Medavakkam Tank Road 	</item>
+        <item>	Medvakkam main road	</item>
+        <item>	Meenambal Salai	</item>
+        <item>	Meetu Street	</item>
+        <item>	Melpatti Ponnappan Street	</item>
+        <item>	Membakkam Main Road	</item>
+        <item>	Memorial Hall Street	</item>
+        <item>	Metha Nagar	</item>
+        <item>	Metha nagar main road	</item>
+        <item>	Mettapalayam Link Road	</item>
+        <item>	Mettu Street	</item>
+        <item>	Mettupalayam Road	</item>
+        <item>	Mettuppalayam	</item>
+        <item>	Mg Nagar	</item>
+        <item>	MG road	</item>
+        <item>	Mgr Main Road	</item>
+        <item>	MGR Nagar	</item>
+        <item>	MGR Road	</item>
+        <item>	MH Road	</item>
+        <item>	MIG Road	</item>
+        <item>	Millers Road	</item>
+        <item>	Mint Street 	</item>
+        <item>	Mkamman Koil Street	</item>
+        <item>	MKB Nagar	</item>
+        <item>	MKN Road	</item>
+        <item>	Mmda Colony	</item>
+        <item>	Mogappair West	</item>
+        <item>	Mohan Ram Nagar	</item>
+        <item>	Montieth Road 	</item>
+        <item>	Mookathal Street	</item>
+        <item>	Moolakkadai	</item>
+        <item>	Moonlight Plaza	</item>
+        <item>	Moore Street	</item>
+        <item>	Moovarasampet main road	</item>
+        <item>	Mosque Street	</item>
+        <item>	Motakikaran Street	</item>
+        <item>	Mouna Swamy Madam Street	</item>
+        <item>	Mounasamy Madam Cross Street	</item>
+        <item>	Mounaswamy Madam Street	</item>
+        <item>	Mount Poonamalle Road	</item>
+        <item>	Mount Road	</item>
+        <item>	Mount Poonamallee Road	</item>
+        <item>	Mowbrays Road	</item>
+        <item>	Mpm Street	</item>
+        <item>	MRH Road	</item>
+        <item>	MRM Street	</item>
+        <item>	MS Koil Street 	</item>
+        <item>	MTH Road 	</item>
+        <item>	Mudhalai 1st Street	</item>
+        <item>	Mudichur Road	</item>
+        <item>	Mugapair East	</item>
+        <item>	Mukathal Street	</item>
+        <item>	Mundakanni Amman Koil Street	</item>
+        <item>	Muniappa Nagar	</item>
+        <item>	Munuswamy Salai	</item>
+        <item>	Murendar Nagar	</item>
+        <item>	Murugan kovil Salai	</item>
+        <item>	Musthura Begum Street	</item>
+        <item>	Muthamizh Nagar	</item>
+        <item>	Muthamman Koil Street	</item>
+        <item>	Muthiah street	</item>
+        <item>	Muthu Mudali Street	</item>
+        <item>	Muthuranga Mudali Street	</item>
+        <item>	Muthuranga Street	</item>
+        <item>	Muthurangam Road	</item>
+        <item>	Muthurangam Street	</item>
+        <item>	Muthuswamy Street	</item>
+        <item>	Muttapudupet	</item>
+        <item>	Muttukadu Road 	</item>
+        <item>	Muvarasanpet Main Road	</item>
+        <item>	N M K Street	</item>
+        <item>	N S C Bose Road	</item>
+        <item>	N S K Nagar	</item>
+        <item>	N S K Salai	</item>
+        <item>	N T Pattel Road	</item>
+        <item>	N.M. Road	</item>
+        <item>	N.M.K. Road 	</item>
+        <item>	N.M.K. Street	</item>
+        <item>	N.N. Street	</item>
+        <item>	N.S.K. Nagar	</item>
+        <item>	Nachiappan Street	</item>
+        <item>	Nachiyar Chathiram	</item>
+        <item>	Nadesan nagar 	</item>
+        <item>	NagaKanni Amman Koil Street	</item>
+        <item>	Nagarjuna Nagar	</item>
+        <item>	Nagendra Nagar	</item>
+        <item>	Nageshwara Rao Road	</item>
+        <item>	Nageshwarar Guruswamy Street	</item>
+        <item>	Nageswara Road	</item>
+        <item>	Nainappa Street	</item>
+        <item>	Nainiappa Naiken Street	</item>
+        <item>	Nainiappan Street	</item>
+        <item>	Nainiyappa Maistry Street	</item>
+        <item>	Nakkeeran Street	</item>
+        <item>	Nallathambi Road	</item>
+        <item>	Nallathambi Street	</item>
+        <item>	Nalwar street 	</item>
+        <item>	Nambi Street	</item>
+        <item>	Nammalwarpet	</item>
+        <item>	Nandanam Extension	</item>
+        <item>	Narayana Mudali Street	</item>
+        <item>	Narayanan Street	</item>
+        <item>	Narayanappa Nkn Street	</item>
+        <item>	Narnam Bedu	</item>
+        <item>	Naryanadasari Street	</item>
+        <item>	Natarajan Salai	</item>
+        <item>	Natesan Nagar	</item>
+        <item>	Nattu Pillaiar Street	</item>
+        <item>	Nattu Pillaiyar Kovil Street	</item>
+        <item>	Nattusubrayan Street	</item>
+        <item>	Nayakkamar street	</item>
+        <item>	Nayiniappa Naichken Street	</item>
+        <item>	Near LIC	</item>
+        <item>	Nedunchezhian Salai	</item>
+        <item>	Nedunchezhian Street	</item>
+        <item>	Nehru Bazaar Road	</item>
+        <item>	Nehru Bazar	</item>
+        <item>	Nehru Colony	</item>
+        <item>	Nehru Salai	</item>
+        <item>	Nehru Nagar	</item>
+        <item>	Nelson Manikkam Road	</item>
+        <item>	Nerkundram 	</item>
+        <item>	Nerkundram Pathai	</item>
+        <item>	Nerkundram Road	</item>
+        <item>	Neru Nagar	</item>
+        <item>	Nesapakkam 	</item>
+        <item>	Nethaji road	</item>
+        <item>	New Avadi Road	</item>
+        <item>	New Boag Road	</item>
+        <item>	New Car Street	</item>
+        <item>	New Colony	</item>
+        <item>	New Colony Main Road	</item>
+        <item>	New Library Street	</item>
+        <item>	New Military Road	</item>
+        <item>	New Road	</item>
+        <item>	New Secretariat Colony	</item>
+        <item>	New Street	</item>
+        <item>	NGO Colony	</item>
+        <item>	NM Road	</item>
+        <item>	Nolambur	</item>
+        <item>	Nolumbur Main Road	</item>
+        <item>	North Avenue Road	</item>
+        <item>	north Gangai Amman Koil Street	</item>
+        <item>	North Mada Street	</item>
+        <item>	North Park Street	</item>
+        <item>	North Poonamallee Road	</item>
+        <item>	north Redhills Road	</item>
+        <item>	North Road	</item>
+        <item>	North Usman Road	</item>
+        <item>	Norton Road	</item>
+        <item>	NSC Bose Road	</item>
+        <item>	NSK Nagar	</item>
+        <item>	Nungambakkam High Road	</item>
+        <item>	Nvn Nagar	</item>
+        <item>	Nyniyappa Naicken Street	</item>
+        <item>	O C F Road	</item>
+        <item>	O.C.F. Road	</item>
+        <item>	O.S.H. Road 	</item>
+        <item>	Officers Colony	</item>
+        <item>	Oil mill road	</item>
+        <item>	Old Mahabalipuram Road	</item>
+        <item>	Old Mambalam Road	</item>
+        <item>	Old Trunk Road	</item>
+        <item>	OMR Road	</item>
+        <item>	oragadam	</item>
+        <item>	Orakkadu Road	</item>
+        <item>	Orandiamman kovil street	</item>
+        <item>	Ormes Road	</item>
+        <item>	OT Bus Stand	</item>
+        <item>	Otthavadai Street	</item>
+        <item>	OVM Street	</item>
+        <item>	P E Koil Street	</item>
+        <item>	P H Road	</item>
+        <item>	P N K garden	</item>
+        <item>	P S Sivaswamy salai	</item>
+        <item>	P T Rajan Salai	</item>
+        <item>	P V Iyer Street	</item>
+        <item>	P V Koil Street	</item>
+        <item>	P.H Road	</item>
+        <item>	P.T.rajan Salai	</item>
+        <item>	Pachayappan Street	</item>
+        <item>	Pachiappan Naicken Street	</item>
+        <item>	Pachiappar Salai	</item>
+        <item>	Paddy field road	</item>
+        <item>	Padi Kuppam Road	</item>
+        <item>	Padikuppam 	</item>
+        <item>	Padikuppam Road	</item>
+        <item>	Padmanabha nagar	</item>
+        <item>	Palace Road	</item>
+        <item>	Palandi Amman Koil Street	</item>
+        <item>	Palani Andavar Koil Street	</item>
+        <item>	Palani Street	</item>
+        <item>	Palaniappa Nagar	</item>
+        <item>	Pallavan Street	</item>
+        <item>	Pammal main road 	</item>
+        <item>	Panchali Amman Koil Street	</item>
+        <item>	Panchayat 2 cross street	</item>
+        <item>	Panneer Nagar	</item>
+        <item>	Pantheon Road 	</item>
+        <item>	Paper mails road	</item>
+        <item>	Paper Mills Road  	</item>
+        <item>	Parali nellaiyappar street	</item>
+        <item>	Parameswari Nagar	</item>
+        <item>	Paraniputhur Road	</item>
+        <item>	Parasurama Eswaran Koil Street	</item>
+        <item>	Pari Salai	</item>
+        <item>	Park Road	</item>
+        <item>	Park Town	</item>
+        <item>	Partha Sarathi Nagar	</item>
+        <item>	Partha Sarathy Naidu Street	</item>
+        <item>	Parthasarathy Street	</item>
+        <item>	Pasumpon Muthuramalingam Street	</item>
+        <item>	Patel Company Road	</item>
+        <item>	Patel Road	</item>
+        <item>	Pattalam	</item>
+        <item>	Pavazhakara Street	</item>
+        <item>	Pe Koil Street	</item>
+        <item>	Pedariyar Koil Street	</item>
+        <item>	Peddu Naicken Street	</item>
+        <item>	Peeliamman Koil Street	</item>
+        <item>	Peer Pailwan Darga Street	</item>
+        <item>	Perambur Barracks Road	</item>
+        <item>	Perambur High Road	</item>
+        <item>	Perambur Barracks Road	</item>
+        <item>	Periamet	</item>
+        <item>	Periyar E V R Road	</item>
+        <item>	periyar nagar	</item>
+        <item>	Periyar Pathai	</item>
+        <item>	Periyar Salai	</item>
+        <item>	Periyar Street	</item>
+        <item>	Perumal Kellys West Mada Street	</item>
+        <item>	Perumal Koil Street	</item>
+        <item>	Perumal Mudali Street	</item>
+        <item>	Perumal Sannathi Street	</item>
+        <item>	Perumbakkam Main Road	</item>
+        <item>	Perumbakkam Road	</item>
+        <item>	Perumual koil Street	</item>
+        <item>	Peters Road 	</item>
+        <item>	PH Road	</item>
+        <item>	Phortigues Street	</item>
+        <item>	Pichu Street	</item>
+        <item>	Pilliyar Koil Street	</item>
+        <item>	Pitchu Pillai Street	</item>
+        <item>	Poes Garden	</item>
+        <item>	Police Commissioner Office Road 	</item>
+        <item>	Police Lane	</item>
+        <item>	Police Quaters	</item>
+        <item>	Polichalur Road	</item>
+        <item>	Ponambalam salai	</item>
+        <item>	Pondy Bazaar	</item>
+        <item>	Ponnai Malai High Road	</item>
+        <item>	Ponnambalam Salai	</item>
+        <item>	Ponni Amman Koil Street	</item>
+        <item>	Ponni Amman Nagar	</item>
+        <item>	Ponni Nagar	</item>
+        <item>	Ponniamman Koil Street  	</item>
+        <item>	Ponnuswamy Street 	</item>
+        <item>	Poonamabalam Salai	</item>
+        <item>	Poonamalle Main Road	</item>
+        <item>	Poonamallee Trunk Road	</item>
+        <item>	Poonamallee High Road	</item>
+        <item>	Portugese Church Street	</item>
+        <item>	Porur Kundrathur Road	</item>
+        <item>	Potuguese church road	</item>
+        <item>	Powder Mills Road	</item>
+        <item>	Pozhichalur	</item>
+        <item>	Pozhichalur Main Road	</item>
+        <item>	PP Amman Koil Street	</item>
+        <item>	Prabhu Nagar	</item>
+        <item>	Prince Centre	</item>
+        <item>	Prince Towers	</item>
+        <item>	Prithivipakkam Main Road	</item>
+        <item>	Prithvi Avenue	</item>
+        <item>	Protugese Church Street	</item>
+        <item>	ptc quatres	</item>
+        <item>	Pudupet	</item>
+        <item>	Pudupet Garden Street	</item>
+        <item>	Pudur	</item>
+        <item>	Pulianthope High Road	</item>
+        <item>	Puliyur	</item>
+        <item>	Puliyur 2nd Main Road	</item>
+        <item>	Pulla Avenue	</item>
+        <item>	Puludivakkam	</item>
+        <item>	Purasawalkam High Road  	</item>
+        <item>	Purushothaman Nagar	</item>
+        <item>	Pushpa Nagar	</item>
+        <item>	Pushpa Nagar Main Road	</item>
+        <item>	Pushpavathi Ammal street	</item>
+        <item>	Puzhuthivakkam	</item>
+        <item>	PV Iyer Street	</item>
+        <item>	Pv koil Street	</item>
+        <item>	PWD Qtrs Todhunter Nagar	</item>
+        <item>	Pycrofts Road	</item>
+        <item>	Q M Street	</item>
+        <item>	Quaide Milleth Salai	</item>
+        <item>	R H Road	</item>
+        <item>	R K Mutt Road	</item>
+        <item>	R V Nagar	</item>
+        <item>	R.K. Shanmugam Salai	</item>
+        <item>	Radha Nagar	</item>
+        <item>	Radha Nagar Main Road	</item>
+        <item>	Ragavendra Colony	</item>
+        <item>	Raghava Nagar	</item>
+        <item>	Raghavan Street	</item>
+        <item>	Ragunayakalu Street	</item>
+        <item>	Railway Border Road	</item>
+        <item>	Railway Colony	</item>
+        <item>	Railway Street Road	</item>
+        <item>	Railway Station Road	</item>
+        <item>	Rainbow Vikas Complex	</item>
+        <item>	Raja Nagar	</item>
+        <item>	Raja Rajeswari Nagar	</item>
+        <item>	Raja Street	</item>
+        <item>	Rajaji Nagar	</item>
+        <item>	Rajaji Road	</item>
+        <item>	Rajaji Salai	</item>
+        <item>	Rajaji Street	</item>
+        <item>	Rajakilpakkam	</item>
+        <item>	Rajalakshmi Nagar	</item>
+        <item>	Rajamangalam Main Road	</item>
+        <item>	Rajamannar Salai	</item>
+        <item>	Rajapuram Main Road	</item>
+        <item>	Rajeshwari Nagar	</item>
+        <item>	Raji Street	</item>
+        <item>	Rajiv Gandhi Nagar	</item>
+        <item>	Rajiv Gandhi Road	</item>
+        <item>	Rajiv Gandhi Salai	</item>
+        <item>	Rajiv Gandhi Street	</item>
+        <item>	Raju Nagar	</item>
+        <item>	Ram nagar	</item>
+        <item>	Ram Nagar South	</item>
+        <item>	Rama Street	</item>
+        <item>	Ramachandra Nagar	</item>
+        <item>	Ramachandra Nagar Main Road	</item>
+        <item>	Ramakrishna Mutt Road	</item>
+        <item>	Ramakrishna Nagar	</item>
+        <item>	Ramakrishna street	</item>
+        <item>	Ramalinga Nagar	</item>
+        <item>	Ramalingapuram	</item>
+        <item>	Ramana Nagar	</item>
+        <item>	Ramanaicken street	</item>
+        <item>	Ramanan Road	</item>
+        <item>	Ramanathan Street	</item>
+        <item>	Ramanuja Iyer Street	</item>
+        <item>	Ramanujam Koodam street	</item>
+        <item>	Ramanujam Street	</item>
+        <item>	Ramapuram Main Road	</item>
+        <item>	Ramasamy Street	</item>
+        <item>	Ramaswamy Raja Street	</item>
+        <item>	Ramaswamy Salai	</item>
+        <item>	Ramaswamy Street	</item>
+        <item>	Ramdoss Nagar  	</item>
+        <item>	Rameshwaram Road	</item>
+        <item>	Ranga Raja Puram	</item>
+        <item>	Ranganatha Mudali Street	</item>
+        <item>	Ranganathan Nagar	</item>
+        <item>	Ranganathan Street	</item>
+        <item>	Ranganathapuram	</item>
+        <item>	Rangantha Mudali Street	</item>
+        <item>	Rangarajapuram Main Road	</item>
+        <item>	Rangarajulu Street	</item>
+        <item>	Rangasayee Street	</item>
+        <item>	Rangaswamy Street	</item>
+        <item>	Rangrajapuram Main Road	</item>
+        <item>	Rassapa chetty street	</item>
+        <item>	Rathinamal Street	</item>
+        <item>	Rathnam Street	</item>
+        <item>	Ravanier Street	</item>
+        <item>	Razaack Garden Main Road	</item>
+        <item>	Razack Garden Road	</item>
+        <item>	RE nagar	</item>
+        <item>	Red Hills Road	</item>
+        <item>	Reddy Kuppam Road	</item>
+        <item>	Reddy Street	</item>
+        <item>	Redhills Road  	</item>
+        <item>	Ritherdon Road	</item>
+        <item>	RK Mutt Road 	</item>
+        <item>	RK Salai	</item>
+        <item>	RK Shanmugam Salai	</item>
+        <item>	Royala Nagar	</item>
+        <item>	Royapettah High Road	</item>
+        <item>	Royapuram Market 	</item>
+        <item>	RR Nagar	</item>
+        <item>	S M Mudali Street	</item>
+        <item>	S Nagar	</item>
+        <item>	S R P Koil Street	</item>
+        <item>	S S Devar Street	</item>
+        <item>	S S Road	</item>
+        <item>	S. R. P. Colony	</item>
+        <item>	S.kolathur main road	</item>
+        <item>	S.R.S. Road	</item>
+        <item>	Sabapathy Street 	</item>
+        <item>	Sabari Salai	</item>
+        <item>	Sabari street	</item>
+        <item>	Sadaiyappan Street	</item>
+        <item>	Sadasivam Nagar	</item>
+        <item>	Sadasivam Street	</item>
+        <item>	Saf Gemes Village 	</item>
+        <item>	Sai nagar	</item>
+        <item>	Saidapet Road	</item>
+        <item>	Sait Colony 	</item>
+        <item>	Sakrapani Street	</item>
+        <item>	sakthi nagar	</item>
+        <item>	Salai Vinayakar Koil Street	</item>
+        <item>	Salavaiyalar Street	</item>
+        <item>	Salaviyalar Colony	</item>
+        <item>	Samudra Street	</item>
+        <item>	Sanjeevarayan Koil Street	</item>
+        <item>	Sankar Nagar	</item>
+        <item>	Sankaran Street	</item>
+        <item>	Sankarapuram Main Road	</item>
+        <item>	Sannathi Street	</item>
+        <item>	Santhi nagar	</item>
+        <item>	Santhipuram 2nd Street	</item>
+        <item>	Santhome High Road	</item>
+        <item>	Sapari Salai	</item>
+        <item>	Saraswathi Nagar	</item>
+        <item>	Saraswathi Street	</item>
+        <item>	Saraswathy Main Road	</item>
+        <item>	Sarathy Nagar	</item>
+        <item>	Saravana street	</item>
+        <item>	Sardar Patel Road	</item>
+        <item>	Sarojini Street	</item>
+        <item>	Sasthri Nagar Main Road	</item>
+        <item>	Sastri Nagar	</item>
+        <item>	Sastri nagar main road	</item>
+        <item>	Sathangadu High Road	</item>
+        <item>	Sathiamoorthy Road	</item>
+        <item>	Sathya Nagar	</item>
+        <item>	Sathya Narayanan Street	</item>
+        <item>	Sathyamoorthi Salai	</item>
+        <item>	Sattannan street	</item>
+        <item>	Sayee Nagar Annex	</item>
+        <item>	Sayee Nagar Main Road	</item>
+        <item>	Sayeenagar	</item>
+        <item>	Sb colony	</item>
+        <item>	School Road	</item>
+        <item>	School Street	</item>
+        <item>	Secretariate Colony	</item>
+        <item>	Seethakathi Salai	</item>
+        <item>	Seethakathi Street	</item>
+        <item>	Seethammal Extension	</item>
+        <item>	Selva Vinagar Kovil Street	</item>
+        <item>	Semathamman Nagar 	</item>
+        <item>	Sembakkam	</item>
+        <item>	Sembarambakkam	</item>
+        <item>	Sengundhar Street	</item>
+        <item>	Senneerkuppam	</item>
+        <item>	Senniamman Koil Street	</item>
+        <item>	Senthamil Nagar	</item>
+        <item>	Senthilandavar Street	</item>
+        <item>	Senthurpuram Main Road	</item>
+        <item>	Seven Wells	</item>
+        <item>	Seven Wells Street	</item>
+        <item>	Shaik abdulla nagar	</item>
+        <item>	Shanmugam Road 	</item>
+        <item>	Shanmugarayan Street	</item>
+        <item>	Shanthi Nagar Main Road	</item>
+        <item>	Shanthi Puram	</item>
+        <item>	Sharma Nagar	</item>
+        <item>	Shastri Nagar	</item>
+        <item>	Sheik Dawood Street	</item>
+        <item>	Shenoy Nagar	</item>
+        <item>	Shiek dawood street	</item>
+        <item>	Shivagami Nagar	</item>
+        <item>	Shopping Complex	</item>
+        <item>	Shriram Nagar	</item>
+        <item>	SIDCO Industrial Estate	</item>
+        <item>	Sidco nagar	</item>
+        <item>	Sidco Nagar Main Road	</item>
+        <item>	Singanna Chetty Street	</item>
+        <item>	Singarachari Street	</item>
+        <item>	Siva Parvathy Nagar  	</item>
+        <item>	Sivan Koil Cross Street	</item>
+        <item>	Sivan Koil Street	</item>
+        <item>	Sivanandha Nagar	</item>
+        <item>	Sivashanmugam Road	</item>
+        <item>	Sivaswamy Salai	</item>
+        <item>	Solaiamman Koil Street	</item>
+        <item>	Solaiappan street	</item>
+        <item>	Solayappan Street	</item>
+        <item>	Solochana Nagar	</item>
+        <item>	Somanathapuram Road	</item>
+        <item>	Somasundara Mudali Street	</item>
+        <item>	Sony Nagar	</item>
+        <item>	Sothupakkam Road	</item>
+        <item>	Sottupakkam High Road	</item>
+        <item>	South Avenue	</item>
+        <item>	South Avenue Street	</item>
+        <item>	South Bank Road	</item>
+        <item>	South Bazar Street	</item>
+        <item>	South boag road	</item>
+        <item>	South Canal Bank Road	</item>
+        <item>	South Gangai Amman Koil	</item>
+        <item>	South high court colony	</item>
+        <item>	South Mada Street	</item>
+        <item>	South Perumal Koil Street	</item>
+        <item>	South Sivan Koil Street	</item>
+        <item>	South Station Road	</item>
+        <item>	South Street	</item>
+        <item>	South Usman Road	</item>
+        <item>	Sowmiya Nagar Main Road	</item>
+        <item>	Sowrashtra Nagar	</item>
+        <item>	Sowrashtra Nagar	</item>
+        <item>	Sozhambedu Road	</item>
+        <item>	Spur Tank Road	</item>
+        <item>	Sri Nagar Colony	</item>
+        <item>	Sri Nagar Kumaran Kudil Main Road	</item>
+        <item>	Sri Ramachandra Nagar	</item>
+        <item>	Sri Rampuram	</item>
+        <item>	Sri Veerappan Nagar	</item>
+        <item>	Sri Venkateshwara Colony	</item>
+        <item>	Sridevi Kuppam Main Road	</item>
+        <item>	Srikrishna Nagar	</item>
+        <item>	Srinagar Colony	</item>
+        <item>	Sringeri Mutt Road	</item>
+        <item>	Srinivasa Avenue Road	</item>
+        <item>	Srinivasa Nagar	</item>
+        <item>	Srinivasa Reddy Street	</item>
+        <item>	Srinivasa Road	</item>
+        <item>	Srinivasa Street	</item>
+        <item>	Srinivasapuram	</item>
+        <item>	Sripuram 1st Street	</item>
+        <item>	Sripuram Iind Street	</item>
+        <item>	Sriram Nagar	</item>
+        <item>	Sriramapuram Second Street	</item>
+        <item>	SRP Kovil Street	</item>
+        <item>	SS Devar Street	</item>
+        <item>	SSD Oil Mill Road	</item>
+        <item>	St Marys Road	</item>
+        <item>	St Patricks Church Road	</item>
+        <item>	St Xavier Street	</item>
+        <item>	State Bank Colony	</item>
+        <item>	Station Road	</item>
+        <item>	Station View Road	</item>
+        <item>	Sterling Road	</item>
+        <item>	Strahan Road	</item>
+        <item>	Strahanas Road	</item>
+        <item>	Stringer Street	</item>
+        <item>	Strotten Muthia Mudali Street	</item>
+        <item>	Subba Reddy Street	</item>
+        <item>	Subbarayan Street	</item>
+        <item>	Subbu Chetty Street	</item>
+        <item>	Subramanian Street	</item>
+        <item>	Subramaniyan Lane	</item>
+        <item>	Subrayan Street	</item>
+        <item>	Subway Road	</item>
+        <item>	Sudhananda Bharathi Street	</item>
+        <item>	Sudhanandha Bharathi Salai	</item>
+        <item>	Sudharsan Nagar	</item>
+        <item>	Sundaram Pillai Street	</item>
+        <item>	Sundaran Street	</item>
+        <item>	Sundram colony	</item>
+        <item>	Sundramoorthy Street	</item>
+        <item>	Supparayar street	</item>
+        <item>	Surendra Nagar	</item>
+        <item>	SV Lingam Salai	</item>
+        <item>	SVS Nagar	</item>
+        <item>	Swami NKN Street	</item>
+        <item>	Swamy Nagar	</item>
+        <item>	Swamy Pandaram Steet	</item>
+        <item>	Swarnambigai Nagar	</item>
+        <item>	Sydenhams Road	</item>
+        <item>	Sydoji Street	</item>
+        <item>	T H Road	</item>
+        <item>	T S V Koil Street	</item>
+        <item>	T V K Industrial Estate	</item>
+        <item>	T. H. Road	</item>
+        <item>	T.S Krishna Nagar	</item>
+        <item>	T.S.D. Nagar	</item>
+        <item>	T.T.K. Salai	</item>
+        <item>	T.V.nagar	</item>
+        <item>	T.V.S Nagar 	</item>
+        <item>	T.V.S. Avenue	</item>
+        <item>	T.V.S. Colony	</item>
+        <item>	Taluka Office Road	</item>
+        <item>	Tambaram Main Road	</item>
+        <item>	Tambram Velachery Main Road	</item>
+        <item>	Tana Street	</item>
+        <item>	Tank Road	</item>
+        <item>	Tank Street	</item>
+        <item>	Tannery Street	</item>
+        <item>	Tansi nagar	</item>
+        <item>	Tansi nagar	</item>
+        <item>	Taramani Link Road	</item>
+        <item>	Tatchur X Road	</item>
+        <item>	Tatia Nagar	</item>
+        <item>	Taylors Road	</item>
+        <item>	Teachers Colony	</item>
+        <item>	Teeds Garden Street	</item>
+        <item>	Temple Street	</item>
+        <item>	Teynampet	</item>
+        <item>	TH Road 	</item>
+        <item>	Thambaiah Reddy Street	</item>
+        <item>	Thambaiah Road	</item>
+        <item>	Thambiah Reddy Raod	</item>
+        <item>	Thambu Chetty Street	</item>
+        <item>	Thandavanarayanan Street	</item>
+        <item>	Thandurai	</item>
+        <item>	thangal	</item>
+        <item>	Thangal Karai Road	</item>
+        <item>	Thangal Street	</item>
+        <item>	Thanikachallam nagar	</item>
+        <item>	Tharamani 100 feet road	</item>
+        <item>	Tharamani Link Road	</item>
+        <item>	Tharamani Main Road	</item>
+        <item>	Thatha Muthaiyappan Street	</item>
+        <item>	Thathakulam Road	</item>
+        <item>	Thattha Muthaippan Street	</item>
+        <item>	Thayuman Chetty Street	</item>
+        <item>	Therthu Mada Vedi	</item>
+        <item>	Thillai Ganga Nagar	</item>
+        <item>	Thillai Nayagam Pillai Street	</item>
+        <item>	Thiru Mangalam Road	</item>
+        <item>	Thiru Nagar	</item>
+        <item>	Thiru nagar 2nd Street	</item>
+        <item>	Thiru Va ka Main Road	</item>
+        <item>	Thiru Vi Ka Industrial Estate	</item>
+        <item>	Thiru Vi Ka Street	</item>
+        <item>	Thirumalai Nagar	</item>
+        <item>	Thirumalai Nagar Annexe	</item>
+        <item>	Thirumalai Pillai Road	</item>
+        <item>	Thirumalainagar Annexe	</item>
+        <item>	Thirumangalam	</item>
+        <item>	Thirumangalam Road	</item>
+        <item>	Thirumoolar Colony	</item>
+        <item>	Thirumurthy Nagar	</item>
+        <item>	Thiruneer Malai Road	</item>
+        <item>	Thiruvaleeswarar Nagar	</item>
+        <item>	Thiruvallavur Nagar	</item>
+        <item>	Thiruvallur Salai	</item>
+        <item>	Thiruvallurvarpuram	</item>
+        <item>	Thiruvalluvar Nagar Main Road  	</item>
+        <item>	Thiruvalluvar Street	</item>
+        <item>	Thiruvalluvar Nagar	</item>
+        <item>	Thiruvalluvar Salai	</item>
+        <item>	Thiruvalluvarpuram	</item>
+        <item>	Thiruvallvar Street	</item>
+        <item>	Thiruveedhi Amman Koil Street	</item>
+        <item>	Thiruvengadam Street 	</item>
+        <item>	Thiruvengadapuram Road	</item>
+        <item>	Thiruvottriyur High Road	</item>
+        <item>	Thousand Lights	</item>
+        <item>	Throwpathy Amman koil street	</item>
+        <item>	Thulasinga Niketan Street	</item>
+        <item>	Thulasingam Street	</item>
+        <item>	Thullukka Street	</item>
+        <item>	Thulukanathamman Koil Street	</item>
+        <item>	Thulukar Street 	</item>
+        <item>	Thyagaraya Road	</item>
+        <item>	Tiruvottiyur High Road	</item>
+        <item>	TMM Street 	</item>
+        <item>	Tmmaistry Street	</item>
+        <item>	TMP Nagar	</item>
+        <item>	TNHB	</item>
+        <item>	TNHB BULDING	</item>
+        <item>	TNHB Colony	</item>
+        <item>	Tnhb Complex	</item>
+        <item>	TNHB road	</item>
+        <item>	TNP 6th Street	</item>
+        <item>	Tondiarpet  	</item>
+        <item>	Tondiarpet High Road	</item>
+        <item>	Township Office Road	</item>
+        <item>	TP Koil Street	</item>
+        <item>	Triplicane High Road 	</item>
+        <item>	Trunk Main Road	</item>
+        <item>	Trunk Road	</item>
+        <item>	Trust Link Street	</item>
+        <item>	Trustpakkam North Street	</item>
+        <item>	Trustpuram	</item>
+        <item>	TTK Road	</item>
+        <item>	TVS Colony	</item>
+        <item>	TVS Nagar	</item>
+        <item>	Tws Nagar	</item>
+        <item>	U.I. Colony	</item>
+        <item>	Udhaya Sooriyan 1st Street	</item>
+        <item>	Ullagaram	</item>
+        <item>	United Colony Main Road  	</item>
+        <item>	United India Colony	</item>
+        <item>	Urvashi Apartments	</item>
+        <item>	Usman Road	</item>
+        <item>	V K Iyer Street	</item>
+        <item>	V M Street	</item>
+        <item>	V P Colony	</item>
+        <item>	V S Mudali Street	</item>
+        <item>	V V Koil Street	</item>
+        <item>	V.G.P Nagar	</item>
+        <item>	V.K. Iyer Road	</item>
+        <item>	V.K. Road 	</item>
+        <item>	V.M. Street	</item>
+        <item>	V.O.C. Complex	</item>
+        <item>	V.O.C. Road	</item>
+        <item>	V.R. Nagar	</item>
+        <item>	V.S. Mudali Street	</item>
+        <item>	V.V. Puram	</item>
+        <item>	Vadamalai Pillai Street	</item>
+        <item>	Vadamalai Street	</item>
+        <item>	Vadivellu Street	</item>
+        <item>	Vadivelu Mudali Street	</item>
+        <item>	Vadivelu Street	</item>
+        <item>	Vaigai Street	</item>
+        <item>	Vaikkakaran Street	</item>
+        <item>	Vaitheeswaran Koil Street	</item>
+        <item>	Vaithieswaran street	</item>
+        <item>	Vaithiyalingam road	</item>
+        <item>	Vaithyanathan Street	</item>
+        <item>	Valaiyapathi Salai	</item>
+        <item>	Valaiyapathy Street	</item>
+        <item>	Valayapathi Road	</item>
+        <item>	Valayapathi Salai	</item>
+        <item>	Valayapathi Street	</item>
+        <item>	Vallal Pari Nagar	</item>
+        <item>	Vallalar Street	</item>
+        <item>	Vallayapathi Street	</item>
+        <item>	Valleeswaran Garder	</item>
+        <item>	Valli Kollai Medu	</item>
+        <item>	Valliammal Road	</item>
+        <item>	Valluvar Kottam	</item>
+        <item>	Valluvar Kottam High Road	</item>
+        <item>	Valluvar Salai	</item>
+        <item>	Valluvarkottam Road	</item>
+        <item>	Valmiki Nagar 	</item>
+        <item>  Valmiki Street	</item>
+        <item>	Vanagaram Road	</item>
+        <item>	Vanagram Road	</item>
+        <item>	Vandikaran Street	</item>
+        <item>	Vannanthurai	</item>
+        <item>	Vannier Street	</item>
+        <item>	Vanniyar Metu Street	</item>
+        <item>	Vanniyar Street	</item>
+        <item>	vanumpet	</item>
+        <item>	Varada Muthiappan Street	</item>
+        <item>	Varadarajapuram	</item>
+        <item>	Varadha lane	</item>
+        <item>	Varadharajapuram	</item>
+        <item>	Vardammal Garden	</item>
+        <item>	Varghese Avenue	</item>
+        <item>	Vasanta Colony	</item>
+        <item>	Vasanth Nagar	</item>
+        <item>	Vasu Street	</item>
+        <item>	Vasudevan Nagar	</item>
+        <item>	Vathiar Thottam Main Road	</item>
+        <item>	Vathiarkandha Pillai Street	</item>
+        <item>	Veera Chetty Street	</item>
+        <item>	Veera Perumal Koil	</item>
+        <item>	Veera Raghavan Road	</item>
+        <item>	Veerabadran Street	</item>
+        <item>	Veeramamunivar Salai	</item>
+        <item>	Veeramamunivar Street	</item>
+        <item>	Veerapandi Kattabomman Street	</item>
+        <item>	Veerappan Street	</item>
+        <item>	Veerasamy Street	</item>
+        <item>	Veerathamman Kovil Street	</item>
+        <item>	Velacheery Road	</item>
+        <item>	Velacheri High Road	</item>
+        <item>	Velacheri Main Road	</item>
+        <item>	Velacherry Highway	</item>
+        <item>	Velachery By Pass Road	</item>
+        <item>	Velachery Road	</item>
+        <item>	Velachery Main Road	</item>
+        <item>	Velan Nagar	</item>
+        <item>	Vellai Thottam	</item>
+        <item>	Vellala Street  	</item>
+        <item>	Vellala Teynampet	</item>
+        <item>	Vellalar Street	</item>
+        <item>	Vembuli Amman Koil Street	</item>
+        <item>	Vengadeswara nagar main road	</item>
+        <item>	Vengaivasal main road	</item>
+        <item>	Vengeeswarar Nagar	</item>
+        <item>	Venkat Nagar  	</item>
+        <item>	Venkatachala Mudali Street	</item>
+        <item>	Venkatakrishna Road	</item>
+        <item>	Venkatamil Nagar  	</item>
+        <item>	Venkatammal Sannathi Street	</item>
+        <item>	Venkatapuram	</item>
+        <item>	Venkatarangam Pillai Street	</item>
+        <item>	Venkatasapuram	</item>
+        <item>	Venkatesa Choudhry Street	</item>
+        <item>	Venkatesa Gramani Street	</item>
+        <item>	Venkatesa nagar	</item>
+        <item>	Venkatesan Chowdri Street	</item>
+        <item>	Venkatesan Street	</item>
+        <item>	Venkateswara Agraharam	</item>
+        <item>	Venkateswara Agraharam Street	</item>
+        <item>	Venkateswara Nagar	</item>
+        <item>	Venkatnarayana Road	</item>
+        <item>	Venkatraman Nagar	</item>
+        <item>	Venkatrathnam Street	</item>
+        <item>	Venu Reddy Street	</item>
+        <item>	Venus Market Street	</item>
+        <item>	Vepery High Road	</item>
+        <item>	Vetri Nagar	</item>
+        <item>	Vgn Nagar	</item>
+        <item>	VGP Ponnagar	</item>
+        <item>	VGP Road	</item>
+        <item>	Vignesh Nagar	</item>
+        <item>	Vigneshwara Nagar	</item>
+        <item>	Vijaya Nagar	</item>
+        <item>	Vijaya Ragavellu Road	</item>
+        <item>	Vijayalakshmipuram	</item>
+        <item>	Vijayanagaram	</item>
+        <item>	Village Road	</item>
+        <item>	Village Street	</item>
+        <item>	Villivakkam Station Road	</item>
+        <item>	Vinayaga Msty Street	</item>
+        <item>	Vinayagampet Street	</item>
+        <item>	Vinayagar Nagar Main Road	</item>
+        <item>	Vinayak Mudali Street	</item>
+        <item>	Vinayakapuram	</item>
+        <item>	Vinus Market Street	</item>
+        <item>	Visalakshi Street	</item>
+        <item>	Visvanathapuram	</item>
+        <item>	Viswanathapuram Main Road	</item>
+        <item>	Vivekananda Nagar  	</item>
+        <item>	Vivekananda Street	</item>
+        <item>	VKH Raod	</item>
+        <item>	Vm Road	</item>
+        <item>	VM Street 	</item>
+        <item>	VOC Nagar	</item>
+        <item>	Voc Street	</item>
+        <item>	VP Colony	</item>
+        <item>	VPN Colony Main Road	</item>
+        <item>	VS Mudali Street	</item>
+        <item>	Vysar Street	</item>
+        <item>	Wall Tax Road	</item>
+        <item>	Wallace Garden	</item>
+        <item>	Wallajah Road	</item>
+        <item>	Wallajahbad Road	</item>
+        <item>	Walltax Road	</item>
+        <item>	Water Tank Road	</item>
+        <item>	Water Tank Street	</item>
+        <item>	Weavers Street	</item>
+        <item>	West Circular Road	</item>
+        <item>	West CIT Nagar	</item>
+        <item>	West Cott Road 	</item>
+        <item>	West Jones Road	</item>
+        <item>	West Mada Street	</item>
+        <item>	West Namasivayapuram	</item>
+        <item>	West Pillaiyar Koil Street	</item>
+        <item>	West Poes Road	</item>
+        <item>	West Sivan Kovil Street	</item>
+        <item>	West V.R. Puram  	</item>
+        <item>	West Vanniyar Street	</item>
+        <item>	Whannels Road	</item>
+        <item>	Whites Road	</item>
+        <item>	Yadhawal Street	</item>
+        <item>	Yemi Street	</item>
+    </string-array>
+
+</resources>
