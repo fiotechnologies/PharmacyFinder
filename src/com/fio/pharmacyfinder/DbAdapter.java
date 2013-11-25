@@ -1,16 +1,19 @@
 package com.fio.pharmacyfinder;
 
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 import android.content.Context;
 import android.database.Cursor;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 public class DbAdapter {
 
@@ -28,6 +31,7 @@ public class DbAdapter {
     private final Context mCtx;
     private DatabaseHelper mDbHelper;
     private SQLiteDatabase mDb;
+    private Map<String,String> shortStrings = new HashMap<String,String>();
 
     private static class DatabaseHelper extends SQLiteOpenHelper {
 
@@ -106,6 +110,12 @@ public class DbAdapter {
      */
     public DbAdapter(Context ctx) {
         this.mCtx = ctx;
+        shortStrings.put("rd","road");
+        shortStrings.put("rd.","road");
+        shortStrings.put("ave","avenue");
+        shortStrings.put("ave.","avenue");
+        shortStrings.put("st","street");
+        shortStrings.put("st.","street");
     }
 
     public DbAdapter open() throws SQLException {
@@ -118,9 +128,12 @@ public class DbAdapter {
         mDbHelper.close();
     }
 
-    public Cursor fetchListItems(String zipCode,String locality, String Thoroughfare) {
+    public Cursor fetchListItems(String zipCode,String locality, String thoroughfare) {
         String where = null;
         String[] whereArgs = null;
+        if(thoroughfare != null){
+        	thoroughfare = eloborateStreet(thoroughfare);
+        }
        /* if(zipCode != null && !zipCode.trim().equals("") 
                 && locality != null &&  !locality.trim().equals("")&& street != null &&  !street.trim().equals("")){
             where = ZIPCODE+"=? or upper("+LOCATION+") like upper(?) or upper("+STREET+") like upper(?)";
@@ -131,9 +144,9 @@ public class DbAdapter {
           if(zipCode != null && !zipCode.trim().equals("")&& locality != null &&  !locality.trim().equals("")){
             where = ZIPCODE+"=? and upper("+LOCATION+") like upper(?)";
             whereArgs = new String[]{zipCode,"%"+locality+"%"};
-        }else if(locality != null && !locality.trim().equals("")&& Thoroughfare != null && !Thoroughfare.trim().equals("")){
+        }else if(locality != null && !locality.trim().equals("")&& thoroughfare != null && !thoroughfare.trim().equals("")){
             where = "upper("+LOCATION+") like upper(?) and upper("+STREET+") like upper(?)";
-            whereArgs = new String[]{"%"+locality+"%","%"+Thoroughfare+"%"}; 
+            whereArgs = new String[]{"%"+locality+"%","%"+thoroughfare+"%"}; 
         }else if(zipCode != null && !zipCode.trim().equals("")){
             where = ZIPCODE+"=?";
             whereArgs = new String[]{zipCode};
@@ -141,9 +154,9 @@ public class DbAdapter {
             where = "upper("+LOCATION+") like upper(?)";
             whereArgs = new String[]{"%"+locality+"%"};
         
-        }else if(Thoroughfare != null && !Thoroughfare.trim().equals("")){
+        }else if(thoroughfare != null && !thoroughfare.trim().equals("")){
             where = "upper("+STREET+") like upper(?)";
-            whereArgs = new String[]{"%"+Thoroughfare+"%"};
+            whereArgs = new String[]{"%"+thoroughfare+"%"};
         }else{
             where = ZIPCODE+"=?";
             whereArgs = new String[]{""};
@@ -156,5 +169,14 @@ public class DbAdapter {
             cursor.moveToFirst();            
         }
         return cursor;
+    }
+    
+    private String eloborateStreet(String street){
+        for(String key : shortStrings.keySet()){
+         if(street.contains(key)){
+    		return street.replace(key, shortStrings.get(key));
+            }   
+        }    	
+    	return street;
     }
 }
