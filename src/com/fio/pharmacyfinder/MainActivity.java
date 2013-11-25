@@ -351,7 +351,8 @@ public class MainActivity extends Activity {
 	}
 
 	public void showPharmacyList(String zipCode, String locality, String street) {
-
+		
+		closeZipAlert();
 		this.zipCode = zipCode;
 		this.locality = locality;
 		this.street = street;
@@ -383,12 +384,13 @@ public class MainActivity extends Activity {
 			});
 			showResultMessage(zipCode, locality, street, LOCATION_MSG, true);
 		} else {
-			listView.setAdapter(new ArrayAdapter<String>(MainActivity.this,
+			showZipcodeAlert(this, "Try again with better search parameters!");
+			/*listView.setAdapter(new ArrayAdapter<String>(MainActivity.this,
 					R.layout.empty_list,
 					new String[] { "Try again with better search parameters!" }));
-			showResultMessage(zipCode, locality, street, NORESULT_MSG, false);
+			showResultMessage(zipCode, locality, street, NORESULT_MSG, false);*/
 		}
-		closeZipAlert();
+		
 	}
 
 	private void clearOldData() {

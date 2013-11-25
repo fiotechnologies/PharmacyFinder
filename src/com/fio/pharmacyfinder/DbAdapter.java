@@ -134,36 +134,36 @@ public class DbAdapter {
         if(thoroughfare != null){
         	thoroughfare = eloborateStreet(thoroughfare);
         }
-       /* if(zipCode != null && !zipCode.trim().equals("") 
-                && locality != null &&  !locality.trim().equals("")&& street != null &&  !street.trim().equals("")){
-            where = ZIPCODE+"=? or upper("+LOCATION+") like upper(?) or upper("+STREET+") like upper(?)";
-            whereArgs = new String[]{zipCode,"%"+locality+"%","%"+street+"%"};
-        }else*/ 
-         
         
-          if(zipCode != null && !zipCode.trim().equals("")&& locality != null &&  !locality.trim().equals("")){
-            where = ZIPCODE+"=? and upper("+LOCATION+") like upper(?)";
-            whereArgs = new String[]{zipCode,"%"+locality+"%"};
-        }else if(locality != null && !locality.trim().equals("")&& thoroughfare != null && !thoroughfare.trim().equals("")){
-            where = "upper("+LOCATION+") like upper(?) and upper("+STREET+") like upper(?)";
-            whereArgs = new String[]{"%"+locality+"%","%"+thoroughfare+"%"}; 
-        }else if(zipCode != null && !zipCode.trim().equals("")){
-            where = ZIPCODE+"=?";
-            whereArgs = new String[]{zipCode};
-        }else if(locality != null && !locality.trim().equals("")){
-            where = "upper("+LOCATION+") like upper(?)";
-            whereArgs = new String[]{"%"+locality+"%"};
-        
-        }else if(thoroughfare != null && !thoroughfare.trim().equals("")){
-            where = "upper("+STREET+") like upper(?)";
+        Cursor cursor = null;
+        		
+        if(thoroughfare != null && !thoroughfare.trim().equals("")){
+        	where = "upper("+STREET+") like upper(?)";
             whereArgs = new String[]{"%"+thoroughfare+"%"};
-        }else{
-            where = ZIPCODE+"=?";
-            whereArgs = new String[]{""};
+            
+            cursor = mDb.query(TABLE_ITEMS, new String[]{PHARM_ID, PHARM_NAME, PHARM_ADDRESS, PHARM_PHONE1, LOCATION,STREET, ZIPCODE},
+                    where, whereArgs, null, null, PHARM_NAME+" asc");
         }
-        Cursor cursor =
-                mDb.query(TABLE_ITEMS, new String[]{PHARM_ID, PHARM_NAME, PHARM_ADDRESS, PHARM_PHONE1, LOCATION,STREET, ZIPCODE},
-                where, whereArgs, null, null, PHARM_NAME+" asc");
+        
+        if(cursor == null || cursor.isClosed()){
+        	if(locality != null && !locality.trim().equals("")){
+                where = "upper("+LOCATION+") like upper(?)";
+                whereArgs = new String[]{"%"+locality+"%"};
+                
+                cursor = mDb.query(TABLE_ITEMS, new String[]{PHARM_ID, PHARM_NAME, PHARM_ADDRESS, PHARM_PHONE1, LOCATION,STREET, ZIPCODE},
+                        where, whereArgs, null, null, PHARM_NAME+" asc");
+            }
+        }
+        
+        if(cursor == null || cursor.isClosed()){
+        	if(zipCode != null && !zipCode.trim().equals("")){
+                where = ZIPCODE+"=?";
+                whereArgs = new String[]{zipCode};
+                
+                cursor = mDb.query(TABLE_ITEMS, new String[]{PHARM_ID, PHARM_NAME, PHARM_ADDRESS, PHARM_PHONE1, LOCATION,STREET, ZIPCODE},
+                        where, whereArgs, null, null, PHARM_NAME+" asc");
+        	}        	
+        }
 
         if (cursor != null) {
             cursor.moveToFirst();            
