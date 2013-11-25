@@ -73,16 +73,20 @@ public class MainActivity extends Activity {
 		addressProgress = (ProgressBar) findViewById(R.id.addressProgress);
 		locationLable = (TextView) findViewById(R.id.locationLable);
 		if (savedInstanceState == null) {
-			locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+			fetchLocation();
+		}
+	}
 
-			locationProvider = getAvailableLocationProvider(locationManager);
-              
-			if (locationProvider == null || locationProvider.trim().equals("")) {
-				// showZipcodeAlert(MainActivity.this, null);
+	private void fetchLocation() {
+		locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
 
-			} else {
-				showPharmaciesForLocation();
-			}
+		locationProvider = getAvailableLocationProvider(locationManager);
+		  
+		if (locationProvider == null || locationProvider.trim().equals("")) {
+			// showZipcodeAlert(MainActivity.this, null);
+
+		} else {
+			showPharmaciesForLocation();
 		}
 	}
 
@@ -103,7 +107,11 @@ public class MainActivity extends Activity {
 		this.zipCode = savedInstanceState.getString(ZIP_CODE);
 		this.locality = savedInstanceState.getString(LOCALITY);
 		this.street = savedInstanceState.getString(STREET);
-		showPharmacyList(this.zipCode, this.locality, this.street);
+		if(this.zipCode == null && this.locality == null && this.street == null){
+			fetchLocation();
+		}else{
+			showPharmacyList(this.zipCode, this.locality, this.street);
+		}
 	}
 
 	@Override
@@ -196,11 +204,8 @@ public class MainActivity extends Activity {
 		flag = displayGpsStatus();
 
 		if (flag) {
-			
-			
 			List<String> providers = locationManager.getProviders(true);
 			for (String str : providers) {
-
 				if (str.equals(LocationManager.NETWORK_PROVIDER)) {
 					provider = str;
 					return provider;
@@ -211,7 +216,6 @@ public class MainActivity extends Activity {
 		} else {
 			alertbox("Gps Status!!", "Your GPS is: OFF");
 		}
-
 		return provider;
 	}
 
