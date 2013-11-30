@@ -81,7 +81,7 @@ public class MainActivity extends Activity {
 		locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
 
 		locationProvider = getAvailableLocationProvider(locationManager);
-		  
+
 		if (locationProvider == null || locationProvider.trim().equals("")) {
 			// showZipcodeAlert(MainActivity.this, null);
 
@@ -107,9 +107,10 @@ public class MainActivity extends Activity {
 		this.zipCode = savedInstanceState.getString(ZIP_CODE);
 		this.locality = savedInstanceState.getString(LOCALITY);
 		this.street = savedInstanceState.getString(STREET);
-		if(this.zipCode == null && this.locality == null && this.street == null){
+		if (this.zipCode == null && this.locality == null
+				&& this.street == null) {
 			fetchLocation();
-		}else{
+		} else {
 			showPharmacyList(this.zipCode, this.locality, this.street);
 		}
 	}
@@ -126,6 +127,7 @@ public class MainActivity extends Activity {
 		switch (item.getItemId()) {
 		case R.id.location_refresh:
 			clearOldData();
+			fetchLocation();
 			showPharmaciesForLocation();
 			return true;
 		case R.id.search:
@@ -142,7 +144,6 @@ public class MainActivity extends Activity {
 		super.onCreateContextMenu(menu, v, menuInfo);
 		if (v instanceof ViewGroup) {
 			Pharmacy pharmacy = getAddressFromListItem((ViewGroup) v);
-
 			menu.setHeaderTitle("Options");
 			menu.add(0, v.getId(), 0, "Call");
 			menu.add(0, v.getId(), 1, "Show Map");
@@ -181,9 +182,7 @@ public class MainActivity extends Activity {
 	}
 
 	protected void showPharmaciesForLocation() {
-
 		LocationListener locationListner = new PharmacyLocationListner();
-
 		locationManager.requestLocationUpdates(locationProvider,
 				MIN_TIME_FOR_UPDATE, MIN_DISTANCE_FOR_UPDATE, locationListner);
 		Location location = locationManager
@@ -200,9 +199,7 @@ public class MainActivity extends Activity {
 		 * criteria.setAccuracy(Criteria.ACCURACY_COARSE); provider =
 		 * locationManager.getBestProvider(criteria, true);
 		 */
-
 		flag = displayGpsStatus();
-
 		if (flag) {
 			List<String> providers = locationManager.getProviders(true);
 			for (String str : providers) {
@@ -225,7 +222,6 @@ public class MainActivity extends Activity {
 		boolean gpsStatus = Settings.Secure.isLocationProviderEnabled(
 				contentResolver, LocationManager.GPS_PROVIDER);
 		if (gpsStatus) {
-
 			return true;
 		} else {
 		}
@@ -240,32 +236,11 @@ public class MainActivity extends Activity {
 				.setPositiveButton("Gps On",
 						new DialogInterface.OnClickListener() {
 							public void onClick(DialogInterface dialog, int id) {
-								// finish the current activity
-								// AlertBoxAdvance.this.finish();
 								Intent myIntent = new Intent(
 										Settings.ACTION_LOCATION_SOURCE_SETTINGS);
 								dialog.cancel();
 								startActivity(myIntent);
-								/*if (provider != null) {
-									showPharmaciesForLocation();
-
-									// return; // the GPS is already in the
-									// requested state
 								}
-								else
-								{
-								showZipcodeAlert(MainActivity.this, null);
-								}*/
-								/*
-								 * boolean enable = false; if
-								 * (provider.contains("gps") == enable) {
-								 * 
-								 * 
-								 * return; // the GPS is already in the //
-								 * requested state }
-								 */
-
-							}
 						})
 				.setNegativeButton("Cancel",
 						new DialogInterface.OnClickListener() {
@@ -273,12 +248,11 @@ public class MainActivity extends Activity {
 								// cancel the dialog box
 								dialog.cancel();
 								showZipcodeAlert(MainActivity.this, null);
-								}
+							}
 						});
 		AlertDialog alert = builder.create();
 		alert.show();
 	}
-
 	private void showZipcodeAlert(Context ctx, String message) {
 		final AlertDialog.Builder alert = new AlertDialog.Builder(ctx);
 		alert.setIcon(R.drawable.ic_launcher);
@@ -286,11 +260,9 @@ public class MainActivity extends Activity {
 		alert.setMessage(message != null && !message.trim().equals("") ? message
 				+ "\nEnter your Zip Code or Area"
 				: "Enter your Zip Code or Area");
-
 		LayoutInflater inflater = getLayoutInflater();
 		final View zipAlertView = inflater.inflate(R.layout.zip_alert, null);
 		alert.setView(zipAlertView);
-
 		final EditText zipCodeText = (EditText) zipAlertView
 				.findViewById(R.id.zipCode);
 		final AutoCompleteTextView areaText = (AutoCompleteTextView) zipAlertView
@@ -307,29 +279,24 @@ public class MainActivity extends Activity {
 				android.R.layout.simple_dropdown_item_1line, Streets);
 		streetText.setAdapter(adapter1);
 		streetText.setThreshold(3);
-
 		// To clear any error message set on the Zip code field
 		areaText.addTextChangedListener(new TextWatcher() {
 			public void beforeTextChanged(CharSequence s, int start, int count,
 					int after) {
 			}
-
 			public void onTextChanged(CharSequence s, int start, int before,
 					int count) {
 				zipCodeText.setError(null);
 				// MainActivity.this.adapter.getFilter().filter(s);
 			}
-
 			public void afterTextChanged(Editable s) {
 			}
 		});
-
 		final Button okButton = (Button) zipAlertView
 				.findViewById(R.id.zipAlertOKButton);
 		okButton.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
 				if (v == okButton) {
-
 					zipCode = zipCodeText.getText().toString();
 					locality = areaText.getText().toString();
 					street = streetText.getText().toString();
@@ -348,24 +315,18 @@ public class MainActivity extends Activity {
 						showPharmacyList(zipCode, locality, street);
 					}
 				}
-
 			}
 		});
 		alertDialog = alert.show();
 	}
-
 	public void showPharmacyList(String zipCode, String locality, String street) {
-		
 		closeZipAlert();
 		this.zipCode = zipCode;
 		this.locality = locality;
 		this.street = street;
-
 		DbAdapter dbAdapter = new DbAdapter(MainActivity.this);
 		dbAdapter.open();
-
 		ListView listView = (ListView) findViewById(R.id.pharmacy_list);
-
 		Cursor cursor = dbAdapter.fetchListItems(zipCode, locality, street);
 		if (cursor != null && cursor.getCount() > 0) {
 			String[] from = { DbAdapter.PHARM_NAME, DbAdapter.PHARM_ADDRESS,
@@ -377,26 +338,21 @@ public class MainActivity extends Activity {
 					MainActivity.this, R.layout.pharmacy_list, cursor, from,
 					to, 1);
 			listView.setAdapter(cursorAdapter);
-
 			listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 				public void onItemClick(AdapterView<?> parent, View view,
 						int position, long id) {
 					registerForContextMenu(view);
 					openContextMenu(view);
-
 				}
 			});
 			showResultMessage(zipCode, locality, street, LOCATION_MSG, true);
 		} else {
-			showZipcodeAlert(this, "Try again with better search parameters!");
-			/*listView.setAdapter(new ArrayAdapter<String>(MainActivity.this,
+			listView.setAdapter(new ArrayAdapter<String>(MainActivity.this,
 					R.layout.empty_list,
 					new String[] { "Try again with better search parameters!" }));
-			showResultMessage(zipCode, locality, street, NORESULT_MSG, false);*/
+			showResultMessage(zipCode, locality, street, NORESULT_MSG, false);
 		}
-		
 	}
-
 	private void clearOldData() {
 		locationLable.setText("");
 		TextView noResult = (TextView) findViewById(R.id.no_results);
@@ -408,10 +364,6 @@ public class MainActivity extends Activity {
 
 	private void showResultMessage(String zipCode, String locality,
 			String street, String message, boolean success) {
-		// if((zipCode == null || zipCode.trim().equals("") && (locality == null
-		// || locality.trim().equals(""))) && success){
-		// locationLable.setText(message +"all known locations");
-		// }else{
 		message = message
 				+ ((zipCode != null && !zipCode.trim().equals("")) ? "Zip Code : "
 						+ zipCode
@@ -427,7 +379,6 @@ public class MainActivity extends Activity {
 			message = message.trim().replace("for", "");
 		}
 		locationLable.setText(message);
-		// }
 		if (success) {
 			locationLable.setTextColor(Color.parseColor("#1920FA"));
 		} else {
@@ -440,6 +391,7 @@ public class MainActivity extends Activity {
 			if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD
 					&& Geocoder.isPresent()) {
 				(new GetAddressTask(this)).execute(location);
+
 			} else {
 				showZipcodeAlert(this, "Your Phone does not support Geocoder");
 			}
@@ -594,10 +546,10 @@ public class MainActivity extends Activity {
 		@Override
 		protected void onPostExecute(Address result) {
 			addressProgress.setVisibility(View.GONE);
-			if(result !=null)
-			{
-				
-				showPharmacyList(result.getPostalCode(),result.getSubLocality(),result.getThoroughfare());
+			if (result != null) {
+
+				showPharmacyList(result.getPostalCode(),
+						result.getSubLocality(), result.getThoroughfare());
 			} else {
 				showZipcodeAlert(context,
 						"Your Address could not be determined");
