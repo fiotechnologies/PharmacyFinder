@@ -6,8 +6,6 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -89,16 +87,14 @@ public class DbAdapter {
 					outStream.write(buffer, 0, len);
 				}
 			} catch (IOException ex) {
-				Logger.getLogger(DbAdapter.class.getName()).log(Level.SEVERE,
-						null, ex);
+				
 			} finally {
 				try {
 					outStream.flush();
 					outStream.close();
 					inputStream.close();
 				} catch (IOException ex) {
-					Logger.getLogger(DbAdapter.class.getName()).log(
-							Level.SEVERE, null, ex);
+					
 				}
 
 			}
