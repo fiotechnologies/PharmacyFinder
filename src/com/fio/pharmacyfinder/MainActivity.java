@@ -58,7 +58,7 @@ public class MainActivity extends Activity {
 	private String street;
 	private final String LOCATION_MSG = "Showing results for ";
 	private final String NORESULT_MSG = "No Results found for ";
-	private static final int MAX_NO_OF_ATTEMPTS = 2;
+	private static final int MAX_NO_OF_ATTEMPTS = 5;
 	private AlertDialog alertDialog;
 	private Boolean flag = false;
 	String provider = null;
@@ -128,7 +128,7 @@ public class MainActivity extends Activity {
 		case R.id.location_refresh:
 			clearOldData();
 			fetchLocation();
-			showPharmaciesForLocation();
+			//showPharmaciesForLocation();
 			return true;
 		case R.id.search:
 			clearOldData();
@@ -190,7 +190,7 @@ public class MainActivity extends Activity {
 		if (location == null) {
 			location = tryToFindLocationAgain();
 		}
-		getResultsForUpdatedLocation(location);
+	//	getResultsForUpdatedLocation(location);
 	}
 
 	private String getAvailableLocationProvider(LocationManager locationManager) {

@@ -15,6 +15,7 @@ class Pharmacy {
     private String phone1;
     private String phone2;
     private String location;
+    private String test;
 
     private String street;
     private String zipCode;
